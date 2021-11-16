@@ -1,43 +1,36 @@
 import React from "react";
-import { Link, withRouter } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-function Navigation(props) {
+function Navigation() {
   return (
     <div className="navigation">
-      <nav class="navbar navbar-expand navbar-dark bg-dark">
-        <div class="container">
-          <Link class="navbar-brand" to="/">
+      <nav className="navbar navbar-expand navbar-dark bg-dark">
+        <div className="container">
+          <NavLink className="navbar-brand" to="/">
             React Multi-Page Website
-          </Link>
+          </NavLink>
           <div>
-            <ul class="navbar-nav ml-auto">
-              <li
-                class={`nav-item  ${
-                  props.location.pathname === "/" ? "active" : ""
-                }`}
-              >
-                <Link class="nav-link" to="/">
+            <ul className="navbar-nav ml-auto">
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/">
                   Home
-                  <span class="sr-only">(current)</span>
-                </Link>
+                  <span className="sr-only">(current)</span>
+                </NavLink>
               </li>
-              <li
-                class={`nav-item  ${
-                  props.location.pathname === "/about" ? "active" : ""
-                }`}
-              >
-                <Link class="nav-link" to="/about">
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/about">
                   About
-                </Link>
+                </NavLink>
               </li>
-              <li
-                class={`nav-item  ${
-                  props.location.pathname === "/contact" ? "active" : ""
-                }`}
-              >
-                <Link class="nav-link" to="/contact">
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/contact">
                   Contact
-                </Link>
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/blog">
+                  Blog
+                </NavLink>
               </li>
             </ul>
           </div>
@@ -47,4 +40,4 @@ function Navigation(props) {
   );
 }
 
-export default withRouter(Navigation);
+export default Navigation;
