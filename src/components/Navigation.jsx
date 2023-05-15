@@ -1,16 +1,16 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
+
 function Navigation() {
   return (
     <div className="navigation">
-      <nav className="navbar navbar-expand navbar-dark bg-dark">
+      <nav className="navbar navbar-expand navbar-light bg-transparent">
         <div className="container">
-          <NavLink className="navbar-brand" to="/">
-            React Multi-Page Website
-          </NavLink>
-          <div>
-            <ul className="navbar-nav ml-auto">
+          {/* <NavLink className="navbar-brand" to="/">
+          David Melkonian - UI Pro
+          </NavLink> <span class="nav-brand-text">Dave M &trade;</span>*/}
+            <ul className="navbar-nav">
               <li className="nav-item">
                 <NavLink className="nav-link" to="/">
                   Home
@@ -18,11 +18,11 @@ function Navigation() {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/about">
-                  About
+                <NavLink className="nav-link" to="/samples">
+                  Samples
                 </NavLink>
-              </li>
-              <li className="nav-item">
+              </li> 
+              {/* <li className="nav-item">
                 <NavLink className="nav-link" to="/contact">
                   Contact
                 </NavLink>
@@ -31,9 +31,8 @@ function Navigation() {
                 <NavLink className="nav-link" to="/blog">
                   Blog
                 </NavLink>
-              </li>
+              </li> */}
             </ul>
-          </div>
         </div>
       </nav>
     </div>
