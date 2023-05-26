@@ -17,7 +17,7 @@ function Home() {
               </div>
             </div>
           <small>title</small><br />
-            <h2 className="h5 mb-4"><a href="https://www.mysmilecoverage.com/">Senior UI/UX Specialist</a></h2>
+            <h2 className="h5 mb-4">Senior UI/UX Specialist/h2>
             <p>
               I am an experienced front-end developer with experience using HTML/CSS/Javascript/Typescript including
               React, Angular, Bootstrap, .NET/Razor, and more.  I've created responsive design frameworks by hand, created
