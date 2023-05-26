@@ -189,6 +189,9 @@ a {
   height: 20%;
   width: auto;
 }
+.card {
+  background: transparent;
+}
 @media only screen and (min-width: 1400px) {
 
   .img-art-two {

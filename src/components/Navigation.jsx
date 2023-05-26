@@ -7,9 +7,6 @@ function Navigation() {
     <div className="navigation pt-3">
       <nav className="navbar navbar-expand navbar-light bg-transparent">
         <div className="container">
-          {/* <NavLink className="navbar-brand" to="/">
-          David Melkonian - UI Pro
-          </NavLink> <span class="nav-brand-text">Dave M &trade;</span>*/}
             <ul className="navbar-nav">
               <li className="nav-item">
                 <NavLink className="nav-link" to="/">
@@ -23,11 +20,16 @@ function Navigation() {
                 </NavLink>
               </li> 
               <li className="nav-item">
+                <NavLink className="nav-link" to="/skills">
+                  Skills
+                </NavLink>
+              </li>
+              <li className="nav-item">
                 <NavLink className="nav-link" to="/contact">
                   Contact
                 </NavLink>
               </li>
-              {/* <li className="nav-item">
+                    {/* <li className="nav-item">
                 <NavLink className="nav-link" to="/blog">
                   Blog
                 </NavLink>

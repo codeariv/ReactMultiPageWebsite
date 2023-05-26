@@ -4,38 +4,22 @@ import recordtwo from './stripes.png';
 function Home() {
   return (
     <div className="home">
-      <img class="img-art-two" src={recordtwo} alt="vinyl artwork" />
-      <div class="container">
-        <div class="row my-5">
-
-          <div class="col-lg-5">
-            <div class="row">
-              <div class="col-lg-12 mb-3">
+      <img className="img-art-two" src={recordtwo} alt="vinyl artwork" />
+      <div className="container">
+        <div className="row my-5">
+          <div className="col-lg-5">
+            <div className="row">
+              <div className="col-lg-12 mb-3">
               <small>person</small><br />
-                <h1 class="col-lg-12 p-0 mb-3">David Melkonian</h1>
+                <h1 className="col-lg-12 p-0 mb-3">David Melkonian</h1>
                 <small>page</small><br />
-                <h2 class="col-lg-12 p-0 mb-3 page-title">Home</h2>
-                <div class="row">
-                  <div class="col-lg-9">
-                    <small>skills</small><br />
-                    <ul class="list-unstyled">
-                      <li>Application Development</li>
-                      <li>Application Solutioning</li>
-                      <li>User Interface Development</li>
-                      <li>User Interface Design</li>
-                      <li>Technical and Creative Leadership</li>
-                      <li>Accessibility Specialist</li>
-                      <li>Technology Consultation</li>
-                    </ul>
-                  </div>
-                </div>
+                <h2 className="col-lg-12 p-0 mb-3 page-title">Home</h2>
               </div>
             </div>
           </div>
-
-          <div class="col-lg-7 pt-5 bio">
+          <div className="col-lg-7 pt-5 bio">
           <small>title</small><br />
-            <h2 class="h5 mb-4"><a href="https://www.mysmilecoverage.com/">Senior Developer - User Interface Specialist</a></h2>
+            <h2 className="h5 mb-4"><a href="https://www.mysmilecoverage.com/">Senior UI/UX Specialist</a></h2>
             <p>
               I am an experienced front-end developer with experience using HTML/CSS/Javascript/Typescript including
               React, Angular, Bootstrap, .NET/Razor, and more.  I've created responsive design frameworks by hand, created
@@ -60,7 +44,6 @@ function Home() {
               to ensure successful development and design to deliver world class software.
             </p>
           </div>
-
         </div>
       </div>
     </div>
