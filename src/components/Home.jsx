@@ -7,7 +7,7 @@ function Home() {
       <img className="img-art-two" src={recordtwo} alt="vinyl artwork" />
       <div className="container">
         <div className="row my-5">
-          <div className="col-lg-5">
+          <div className="col-lg-12">
             <div className="row">
               <div className="col-lg-12 mb-3">
               <small>person</small><br />
@@ -16,8 +16,6 @@ function Home() {
                 <h2 className="col-lg-12 p-0 mb-3 page-title">Home</h2>
               </div>
             </div>
-          </div>
-          <div className="col-lg-7 pt-5 bio">
           <small>title</small><br />
             <h2 className="h5 mb-4"><a href="https://www.mysmilecoverage.com/">Senior UI/UX Specialist</a></h2>
             <p>
