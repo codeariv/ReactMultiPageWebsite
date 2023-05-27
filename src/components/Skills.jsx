@@ -1,11 +1,12 @@
 import React from "react";
 import recordtwo from './stripes.png';
+import recordthree from './vinyl.png';
 
 function Skills() {
   return (
 
     <div className="home">
-      <img className="img-art-two" src={recordtwo} alt="vinyl artwork" />
+      <img className="img-art-two" src={recordthree} alt="vinyl artwork" />
       <div className="container">
         <div className="row my-5">
           <div className="col-lg-12 mb-3">

@@ -192,6 +192,56 @@ a {
 .card {
   background: transparent;
 }
+.sample-card {
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  background: white;
+  border-radius: 5px;
+}
+.text-card  {
+  width: 100%;
+  height: auto;
+  background: #1c77c3;
+  padding: 15px;
+  color: white;
+  border-radius: 5px;
+}
+.text-card a,
+.text-card h3  {
+  color: white;
+  text-shadow: none;
+}
+.sample-row {
+  justify-content: space-between;
+  border-radius: 4px;
+  background: white;
+}
+.one-screen {
+  height: auto;
+  width: 50%;
+}
+.grow { 
+  transition: all .2s ease-in-out; 
+  }
+  
+  .grow:hover { 
+  transform: scale(1.1); 
+  }
+
+.comp-cols {
+  background: transparent;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.comp-cols a {
+  justify-content: center;
+}
+.border-right {
+  border-right: 1px solid #1c77c3 !important;
+}
 @media only screen and (min-width: 1400px) {
 
   .img-art-two {

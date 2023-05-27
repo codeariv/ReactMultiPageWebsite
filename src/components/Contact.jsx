@@ -1,10 +1,10 @@
 import React from "react";
-import recordtwo from './stripes.png';
+import artlockup from './artlockup.png';
     
     function Contact () {
       return (
       <div className="home">
-      <img className="img-art-two" src={recordtwo} alt="vinyl artwork" />
+      <img className="img-art-two" src={artlockup} alt="vinyl artwork" />
         <div className="container">
           <div className="row my-5">
             <div className="col-lg-12">

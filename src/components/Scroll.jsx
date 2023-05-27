@@ -1,7 +1,7 @@
 import React from "react";
 import recordtwo from './stripes.png';
 
-function Scroll() {
+function Scroll () {
   return (
 
     <div className="home">
