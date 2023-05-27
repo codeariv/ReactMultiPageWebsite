@@ -17,10 +17,10 @@ function Home() {
               </div>
             </div>
           <small>title</small><br />
-            <h2 className="h5 mb-4">Senior UI/UX Specialist/h2>
+            <h2 className="h5 mb-4">Senior UI/UX Specialist</h2>
             <p>
               I am an experienced front-end developer with experience using HTML/CSS/Javascript/Typescript including
-              React, Angular, Bootstrap, .NET/Razor, and more.  I've created responsive design frameworks by hand, created
+              React, Angular, Bootstrap, Razor, and more.  I've created responsive design frameworks by hand, created
               graphic design systems and integrated them directly with front end code. I've created prototypes for mobile applications
               and am fluent in Photoshop, Illustrator, Sketch, Figma and more. I've been fortunate to work on many applications of all sizes.
               Some include the Delta Dental <a href='https://www.mysmilecoverage.com/delta/'>MySmileCoverage</a> site, Delta's
@@ -38,7 +38,7 @@ function Home() {
             <p>
               I am well-versed in Agile software development, including Scrum and SAFe methodologies. I am a
               Certified Usability Analyst (CUA) by Human Factors International and have obtained Scrum Master
-              certification. I work closely with product owners, executive leadership, vendors and management
+              certification. I work with product owners, executive leadership, vendors and management
               to ensure successful development and design to deliver world class software.
             </p>
           </div>
