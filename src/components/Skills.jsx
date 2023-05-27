@@ -1,5 +1,4 @@
 import React from "react";
-import recordtwo from './stripes.png';
 import recordthree from './vinyl.png';
 
 function Skills() {
