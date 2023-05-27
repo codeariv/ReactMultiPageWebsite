@@ -32,45 +32,45 @@ function Samples() {
           </div>
           <div className="row">
             {/* <div className="col-lg-12">
-              <h3 className="mb-3"><a href="https://dribbble.com/davemelk100" target="_blank">Mobile App game concept - Group listening</a></h3>
+              <h3 className="mb-3"><a href="https://dribbble.com/davemelk100" target="_blank" rel="noopener noreferrer">Mobile App game concept - Group listening</a></h3>
             </div> */}
           </div>
           <div className="row my-5 pb-5 sample-row d-flex">
             <div className="col-lg-12 text-card">
               <h3 className="mb-3">
-                <a href="https://dribbble.com/davemelk100" target="_blank">Mobile App game concept</a>
+                <a href="https://dribbble.com/davemelk100" target="_blank" rel="noopener noreferrer">Mobile App game concept</a>
               </h3>
               <p>This group listening app concept began organically as a game we would play on road trips.</p>
               <p>Project is fully conceptualized and is in progress.</p>
             </div>
             <div className="col-lg-4 comp-cols">
-              <a href="https://dribbble.com/shots/20622909-mobile-game-concept" target="_blank"><img className="grow sample-card" src={compfour} alt="artwork" /></a>
+              <a href="https://dribbble.com/shots/20622909-mobile-game-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={compfour} alt="artwork" /></a>
             </div>
             <div className="col-lg-4 comp-cols">
-              <a href="https://dribbble.com/shots/20591072-mobile-app-game-concept" target="_blank"><img className="grow sample-card" src={compthree} alt="artwork" /></a>
+              <a href="https://dribbble.com/shots/20591072-mobile-app-game-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={compthree} alt="artwork" /></a>
             </div>
             <div className="col-lg-4 comp-cols">
-              <a href="https://dribbble.com/shots/20590741-mobile-game-concept-screens" target="_blank"><img className="grow sample-card" src={comptwo} alt="artwork" /></a>
+              <a href="https://dribbble.com/shots/20590741-mobile-game-concept-screens" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={comptwo} alt="artwork" /></a>
             </div>
           </div>
 
           <div className="row my-5 pb-5 sample-row d-flex">
             <div className="col-lg-12 text-card">
               <h3 className="mb-3">
-                <a href="https://dribbble.com/davemelk100" target="_blank">Mobile App ticketing system</a>
+                <a href="https://dribbble.com/davemelk100" target="_blank" rel="noopener noreferrer">Mobile App ticketing system</a>
               </h3>
               <p>This was a POC for a potential market offering.</p>
               <p>Project is complete but only available to internal employees.</p>
-              <p>Check out the <a href="https://www.figma.com/proto/IaGShRQDs0RRld07kLP9G5/dewpoint-mobile-app-copy-2?node-id=201-315&scaling=min-zoom&page-id=201%3A45&starting-point-node-id=201%3A315&hide-ui=1" target="_blank">protype app.</a></p>
+              <p>Check out the <a href="https://www.figma.com/proto/IaGShRQDs0RRld07kLP9G5/dewpoint-mobile-app-copy-2?node-id=201-315&scaling=min-zoom&page-id=201%3A45&starting-point-node-id=201%3A315&hide-ui=1" target="_blank" rel="noopener noreferrer">protype app.</a></p>
             </div>
             <div className="col-lg-4 comp-cols">
-            <a href="https://www.figma.com/proto/IaGShRQDs0RRld07kLP9G5/dewpoint-mobile-app-copy-2?node-id=201-315&scaling=min-zoom&page-id=201%3A45&starting-point-node-id=201%3A315&hide-ui=1" target="_blank"><img className="grow sample-card" src={compfive} alt="artwork" /></a>
+            <a href="https://www.figma.com/proto/IaGShRQDs0RRld07kLP9G5/dewpoint-mobile-app-copy-2?node-id=201-315&scaling=min-zoom&page-id=201%3A45&starting-point-node-id=201%3A315&hide-ui=1" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={compfive} alt="artwork" /></a>
             </div>
             <div className="col-lg-4 comp-cols">
-            <a href="https://www.figma.com/proto/IaGShRQDs0RRld07kLP9G5/dewpoint-mobile-app-copy-2?node-id=201-315&scaling=min-zoom&page-id=201%3A45&starting-point-node-id=201%3A315&hide-ui=1" target="_blank"><img className="grow sample-card" src={compsix} alt="artwork" /></a>
+            <a href="https://www.figma.com/proto/IaGShRQDs0RRld07kLP9G5/dewpoint-mobile-app-copy-2?node-id=201-315&scaling=min-zoom&page-id=201%3A45&starting-point-node-id=201%3A315&hide-ui=1" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={compsix} alt="artwork" /></a>
             </div>
             <div className="col-lg-4 comp-cols">
-            <a href="https://www.figma.com/proto/IaGShRQDs0RRld07kLP9G5/dewpoint-mobile-app-copy-2?node-id=201-315&scaling=min-zoom&page-id=201%3A45&starting-point-node-id=201%3A315&hide-ui=1" target="_blank"><img className="grow sample-card one-screen" src={compseven} alt="artwork" /></a>
+            <a href="https://www.figma.com/proto/IaGShRQDs0RRld07kLP9G5/dewpoint-mobile-app-copy-2?node-id=201-315&scaling=min-zoom&page-id=201%3A45&starting-point-node-id=201%3A315&hide-ui=1" target="_blank" rel="noopener noreferrer"><img className="grow sample-card one-screen" src={compseven} alt="artwork" /></a>
             </div>
           </div>
 
@@ -78,27 +78,27 @@ function Samples() {
           <div className="row my-5 pb-5 sample-row d-flex">
             <div className="col-lg-12 text-card">
               <h3 className="mb-3">
-                <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank">Various Wirefames/Sketches</a>
+                <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer">Various Wirefames/Sketches</a>
               </h3>
               <p>These are random lo-fi wireframes I've made over the years.</p>
             </div>
             <div className="col-lg-4 comp-cols">
-              <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank"><img className="grow sample-card" src={wireone} alt="artwork" /></a>
+              <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={wireone} alt="artwork" /></a>
             </div>
             <div className="col-lg-4 comp-cols">
-              <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank"><img className="grow sample-card" src={wiretwo} alt="artwork" /></a>
+              <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={wiretwo} alt="artwork" /></a>
             </div>
             <div className="col-lg-4 comp-cols">
-              <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank"><img className="grow sample-card" src={wirethree} alt="artwork" /></a>
+              <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={wirethree} alt="artwork" /></a>
             </div>
             <div className="col-lg-6 comp-cols">
-              <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank"><img className="grow sample-card" src={wirefour} alt="artwork" /></a>
+              <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={wirefour} alt="artwork" /></a>
             </div>
             <div className="col-lg-6 comp-cols">
-              <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank"><img className="grow sample-card" src={wirefive} alt="artwork" /></a>
+              <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={wirefive} alt="artwork" /></a>
             </div>
             <div className="col-lg-12 comp-cols">
-              <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank"><img className="grow sample-card" src={wiresix} alt="artwork" /></a>
+              <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={wiresix} alt="artwork" /></a>
             </div>            
           </div>
 
