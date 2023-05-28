@@ -105,15 +105,15 @@ function Samples() {
               <p>Project is complete but only available to internal employees.</p>
               <p>Check out the <a href="https://www.figma.com/proto/IaGShRQDs0RRld07kLP9G5/dewpoint-mobile-app-copy-2?node-id=201-315&scaling=min-zoom&page-id=201%3A45&starting-point-node-id=201%3A315&hide-ui=1" target="_blank" rel="noopener noreferrer">protype app.</a></p>
             </div>
-            <div className="col-lg-4 comp-cols">
+            <div className="col-lg-5 comp-cols">
               <a href="https://dribbble.com/shots/20590937-mobile-app-ticketing-system-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={compfive} alt="artwork" /></a>
             </div>
-            <div className="col-lg-4 comp-cols">
+            <div className="col-lg-7 comp-cols">
               <a href="https://dribbble.com/shots/20590951-mobile-app-ticketing-system-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={compsix} alt="artwork" /></a>
             </div>
-            <div className="col-lg-4 comp-cols">
+            {/* <div className="col-lg-4 comp-cols">
               <a href="https://dribbble.com/shots/20622858-mobile-app-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={compeight} alt="artwork" /></a>
-            </div>
+            </div> */}
           </div>
 
           <div className="row my-4 mx-1 pb-5 sample-row d-flex">
@@ -132,10 +132,10 @@ function Samples() {
             <div className="col-lg-4 comp-cols">
               <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={wirethree} alt="artwork" /></a>
             </div>
-            <div className="col-lg-6 comp-cols">
+            <div className="col-lg-12 comp-cols">
               <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={wirefour} alt="artwork" /></a>
             </div>
-            <div className="col-lg-6 comp-cols">
+            <div className="col-lg-12 comp-cols">
               <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={wirefive} alt="artwork" /></a>
             </div>
             <div className="col-lg-12 comp-cols">
