@@ -16,7 +16,7 @@ function Navigation() {
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/samples">
-                Experience + Samples
+                Samples
                 </NavLink>
               </li> 
               <li className="nav-item">
