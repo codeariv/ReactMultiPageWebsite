@@ -18,7 +18,6 @@ function Skills() {
                 <h3>Front End Development</h3>
                 <ul>
                   <li>HTML / CSS / SCSS / Bootstrap / Razor</li>
-                  <li>Bootstrap / jQuery</li>
                   <li>Wordpress / Umbraco / Magnolia</li>
                   <li>ReactJs / Angular / Vue / jQuery</li>
                 </ul>
