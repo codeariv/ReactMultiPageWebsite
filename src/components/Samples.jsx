@@ -22,6 +22,8 @@ import arthands from './arthands.png';
 import artgenuine from './artgenuine.png';
 import recordone from './recordone.png';
 import recordtwo from './stripes.png';
+import artprizesearch from './artprizesearch.png';
+import artprizevenue from './artprizevenue.png';
 
 function Samples() {
   return (
@@ -36,10 +38,79 @@ function Samples() {
               <small>person</small><br />
               <h1 className="col-lg-12 p-0 mb-3">David Melkonian</h1>
               <small>page</small><br />
-              <h2 className="col-lg-12 p-0 page-title">Samples</h2>
+              <h2 className="col-lg-12 p-0 page-title">Experience + Samples</h2>
             </div>
           </div>
 
+          <div className="row my-4 mx-1 p-4 sample-row d-flex flex-row">
+            <div className="col-lg-6">
+              <img className="grow sample-img" src={artprizesearch} alt="artwork" />
+              <img className="grow sample-img" src={artprizevenue} alt="artwork" />
+            </div>
+            <div className="col-lg-6">
+              <small className="mb-0">project</small><br/>
+              <a className="h5 font-weight-bold" href="https://www.artprize.org/">ArtPrize</a><br /><br />
+              <small className="mb-0">role</small><br/>
+              <p className="mb-2">Senior Application Developer</p><br/>
+              <small className="mb-0">contributions</small>
+              <ul className="mb-6">
+                <li className="mb-4">Created responsive front end for a .NET application with Razor templates</li>
+                <li className="mb-4">Collaborated with creative team to implement the design</li>
+                <li className="mb-4">Interpreted wireframes to illustrate workflow</li>
+                <li className="mb-4">Created working prototype of an Umbraco CMS</li>
+                <li className="mb-4">Implemented a carousel mechanism to prominently display the artists' work</li>
+                <li className="mb-4">Built a Masonry layout for search results (a la Pinterest)</li>
+                <li className="mb-4">Designed and built a banner and edit button treatment for all editing pages</li>
+                <li className="mb-4">Created style and layout for admin pages, confirmation messages, and alerts</li>
+                <li className="mb-4">Maintained a design system including all controls and typography</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="row my-4 mx-1 p-4 sample-row d-flex flex-row">
+            <div className="col-lg-6">
+              <small className="mb-0">project</small><br/>
+              <a className="h5 font-weight-bold" href="https://www.mysmilecoverage.com/">Delta Dental of Michigan - Individual Shopping platform</a><br /><br />
+              <small className="mb-0">role</small><br/>
+              <p className="mb-2">Senior Application Developer</p><br/>
+              <small className="mb-0">contributions</small>
+              <ul className="mb-6">
+                <li className="mb-4">Created responsive front end for an Angular application using Bootstrap and significant custom HTML and CSS.</li>
+                <li className="mb-4">Created Freemarker templates for a Magnolia CMS</li>
+                <li className="mb-4">Created alternate theme for Renaissance company</li>
+                <li className="mb-4">Performed accessibility reviews and implemented technical solutions for any issues</li>
+                <li className="mb-4">Built a living style guide / design system for reference when project was initiated</li>
+                <li className="mb-4">Collaborated with design agency to ensure design systems are technically feasible</li>
+              </ul>
+            </div>
+            <div className="col-lg-6">
+              <img className="grow sample-img" src={deltaportal} alt="artwork" />
+              <img className="grow sample-img" src={renshopping} alt="artwork" />
+            </div>
+          </div>
+
+          <div className="row my-4 mx-1 p-4 sample-row d-flex flex-row">
+          <div className="col-lg-6">
+            <img className="grow sample-img" src={deltaportaltwo} alt="artwork" />
+              <img className="grow sample-img" src={renlogin} alt="artwork" />
+            </div>
+          <div className="col-lg-6">
+            <small className="mb-0">project</small><br/>
+              <a className="h5 font-weight-bold" href="https://www.memberportal.com/">Delta Dental of Michigan - Member Portal</a><br /><br />
+              <small className="mb-0">role</small><br/>
+              <p className="mb-2">Senior Application Developer</p><br />
+              <small className="mb-0 ">contributions</small>
+              <ul className="mb-5">
+                <li className="mb-5">Extended the individual shopping design system using Angular with custom HTML and CSS</li>
+                <li className="mb-5">Troubleshooting JavaScript/HTML/CSS/etc</li>
+                <li className="mb-5">Conducted code reviews and desk checks</li>
+                <li className="mb-5">Conducted heuristic evaluations of product to identify user experience issues</li>
+                <li className="mb-5">Performed accessibility reviews and implemented technical solutions for discovered issues</li>
+              </ul>
+           </div>
+
+          </div>
+          
           <div className="row my-4 mx-1 pb-5 sample-row d-flex">
             <div className="col-lg-12 text-card">
                 <h3 className="mb-3">
@@ -158,49 +229,6 @@ function Samples() {
             </div>
           </div>
 
-          <div className="row my-4 mx-1 p-4 sample-row d-flex flex-row">
-            <div className="col-lg-5">
-              <small className="mb-0">project</small><br/>
-              <a className="h5 font-weight-bold" href="https://www.mysmilecoverage.com/">Delta Dental of Michigan - Individual Shopping platform</a><br /><br />
-              <small className="mb-0">role</small><br/>
-              <p className="mb-2">Senior Application Developer</p><br/>
-              <small className="mb-0">contributions</small>
-              <ul className="mb-6">
-                <li className="mb-4">Created responsive front end for an Angular application using Bootstrap and significant custom HTML and CSS.</li>
-                <li className="mb-4">Created Freemarker templates for a Magnolia CMS</li>
-                <li className="mb-4">Created alternate theme for Renaissance company</li>
-                <li className="mb-4">Performed accessibility reviews and implemented technical solutions for any issues</li>
-                <li className="mb-4">Built a living style guide / design system for reference when project was initiated</li>
-                <li className="mb-4">Collaborated with design agency to ensure design systems are technically feasible</li>
-              </ul>
-            </div>
-            <div className="col-lg-6">
-              <img className="grow sample-img" src={deltaportal} alt="artwork" />
-              <img className="grow sample-img" src={renshopping} alt="artwork" />
-            </div>
-          </div>
-
-          <div className="row my-4 mx-1 p-4 sample-row d-flex flex-row">
-          <div className="col-lg-6">
-            <img className="grow sample-img" src={deltaportaltwo} alt="artwork" />
-              <img className="grow sample-img" src={renlogin} alt="artwork" />
-            </div>
-          <div className="col-lg-6">
-            <small className="mb-0">project</small><br/>
-              <a className="h5 font-weight-bold" href="https://www.memberportal.com/">Delta Dental of Michigan - Member Portal</a><br /><br />
-              <small className="mb-0">role</small><br/>
-              <p className="mb-2">Senior Application Developer</p><br />
-              <small className="mb-0 ">contributions</small>
-              <ul className="mb-5">
-                <li className="mb-5">Extended the individual shopping design system using Angular with custom HTML and CSS</li>
-                <li className="mb-5">Troubleshooting JavaScript/HTML/CSS/etc</li>
-                <li className="mb-5">Conducted code reviews and desk checks</li>
-                <li className="mb-5">Conducted heuristic evaluations of product to identify user experience issues</li>
-                <li className="mb-5">Performed accessibility reviews and implemented technical solutions for discovered issues</li>
-              </ul>
-           </div>
-
-          </div>
           
           </div>
       </div>

@@ -213,8 +213,9 @@ a {
 }
 .sample-row {
   justify-content: space-between;
-  border-radius: 5px;
+  border-radius: 10px;
   background: white;
+  border: 1px solid #1c77c3;
 }
 .one-screen {
   height: auto;
