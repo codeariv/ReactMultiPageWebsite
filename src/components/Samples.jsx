@@ -4,7 +4,7 @@ import compthree from './compthree.png';
 import compfour from './compfour.png';
 import compfive from './compfive.png';
 import compsix from './compsix.png';
-import compseven from './compseven.png';
+import compeight from './compeight.png';
 import wireone from './wireone.jpg';
 import wiretwo from './wiretwo.jpg';
 import wirethree from './wirethree.jpg';
@@ -12,6 +12,14 @@ import wirefour from './wirefour.jpg';
 import wirefive from './wirefive.png';
 import wiresix from './wiresix.jpg';
 import artgear from './artgear.png';
+import artlockup from './artlockup.png';
+import artdots from './artdots.png';
+import artlionsblack from './artlionsblack.png';
+import artstag from './artstag.png';
+import arthands from './arthands.png';
+import artgenuine from './artgenuine.png';
+import recordone from './recordone.png';
+import recordtwo from './stripes.png';
 
 
 function Samples() {
@@ -24,17 +32,52 @@ function Samples() {
         <div className="col-lg-12">
           <div className="row">
             <div className="col-lg-12 mb-3">
-            <small>person</small><br />
-            <h1 className="col-lg-12 p-0 mb-3">David Melkonian</h1>
-            <small>page</small><br />
-            <h2 className="col-lg-12 p-0 mb-3 page-title">Samples</h2>
+              <small>person</small><br />
+              <h1 className="col-lg-12 p-0 mb-3">David Melkonian</h1>
+              <small>page</small><br />
+              <h2 className="col-lg-12 p-0 mb-3 page-title">Samples</h2>
             </div>
           </div>
-          <div className="row">
-            {/* <div className="col-lg-12">
-              <h3 className="mb-3"><a href="https://dribbble.com/davemelk100" target="_blank" rel="noopener noreferrer">Mobile App game concept - Group listening</a></h3>
-            </div> */}
+
+          <div className="row my-5 pb-5 sample-row d-flex">
+            <div className="col-lg-12 text-card">
+                <h3 className="mb-3">
+                  Various Digital Art&nbsp;&nbsp;&nbsp;
+                  
+                </h3>
+                <p>These are various cover art concepts and digital assets.</p>
+                <small><a href="https://dribbble.com/davemelk100">Dribble Portfolio</a></small>
+              </div>
+              <div className="col-lg-4 comp-cols">
+                <a href="" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={recordtwo} alt="artwork" /></a>
+              </div>
+              <div className="col-lg-4 comp-cols">
+                <a href="" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={recordone} alt="artwork" /></a>
+              </div>
+              <div className="col-lg-4 comp-cols">
+                <a href="" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={artstag} alt="artwork" /></a>
+              </div>
+              <div className="col-lg-4 comp-cols">
+                <a href="h" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={artlockup} alt="artwork" /></a>
+              </div>
+              <div className="col-lg-4 comp-cols">
+                <a href="" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={artdots} alt="artwork" /></a>
+              </div>
+              <div className="col-lg-4 comp-cols">
+                <a href="" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={artgear} alt="artwork" /></a>
+              </div>
+              <div className="col-lg-4 comp-cols">
+                <a href="" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={artlionsblack} alt="artwork" /></a>
+              </div>
+              <div className="col-lg-4 comp-cols">
+                <a href="" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={arthands} alt="artwork" /></a>
+              </div>
+              <div className="col-lg-4 comp-cols">
+                <a href="" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={artgenuine} alt="artwork" /></a>
+              </div>
           </div>
+
+
           <div className="row my-5 pb-5 sample-row d-flex">
             <div className="col-lg-12 text-card">
               <h3 className="mb-3">
@@ -64,15 +107,18 @@ function Samples() {
               <p>Check out the <a href="https://www.figma.com/proto/IaGShRQDs0RRld07kLP9G5/dewpoint-mobile-app-copy-2?node-id=201-315&scaling=min-zoom&page-id=201%3A45&starting-point-node-id=201%3A315&hide-ui=1" target="_blank" rel="noopener noreferrer">protype app.</a></p>
             </div>
             <div className="col-lg-4 comp-cols">
-            <a href="https://www.figma.com/proto/IaGShRQDs0RRld07kLP9G5/dewpoint-mobile-app-copy-2?node-id=201-315&scaling=min-zoom&page-id=201%3A45&starting-point-node-id=201%3A315&hide-ui=1" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={compfive} alt="artwork" /></a>
+              <a href="https://dribbble.com/shots/20590937-mobile-app-ticketing-system-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={compfive} alt="artwork" /></a>
             </div>
             <div className="col-lg-4 comp-cols">
-            <a href="https://www.figma.com/proto/IaGShRQDs0RRld07kLP9G5/dewpoint-mobile-app-copy-2?node-id=201-315&scaling=min-zoom&page-id=201%3A45&starting-point-node-id=201%3A315&hide-ui=1" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={compsix} alt="artwork" /></a>
+              <a href="https://dribbble.com/shots/20590951-mobile-app-ticketing-system-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={compsix} alt="artwork" /></a>
             </div>
             <div className="col-lg-4 comp-cols">
-            <a href="https://www.figma.com/proto/IaGShRQDs0RRld07kLP9G5/dewpoint-mobile-app-copy-2?node-id=201-315&scaling=min-zoom&page-id=201%3A45&starting-point-node-id=201%3A315&hide-ui=1" target="_blank" rel="noopener noreferrer"><img className="grow sample-card one-screen" src={compseven} alt="artwork" /></a>
+              <a href="https://dribbble.com/shots/20622858-mobile-app-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={compeight} alt="artwork" /></a>
             </div>
           </div>
+
+
+          
 
 
           <div className="row my-5 pb-5 sample-row d-flex">
@@ -99,7 +145,10 @@ function Samples() {
             </div>
             <div className="col-lg-12 comp-cols">
               <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={wiresix} alt="artwork" /></a>
-            </div>            
+            </div>
+
+
+            
           </div>
 
 
@@ -152,7 +201,6 @@ function Samples() {
       </div>
     </div>
   </div>
-      );
-    }
-    
-    export default Samples;
+    );
+  }
+  export default Samples;
