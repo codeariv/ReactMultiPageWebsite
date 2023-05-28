@@ -85,15 +85,15 @@ function Samples() {
               <p>This group listening app concept began organically as a game we would play on road trips.</p>
               <p>Project is fully conceptualized and is in progress.</p>
             </div>
-            <div className="col-lg-4 comp-cols">
+            <div className="col-lg-6 comp-cols">
               <a href="https://dribbble.com/shots/20622909-mobile-game-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={compfour} alt="artwork" /></a>
             </div>
-            <div className="col-lg-4 comp-cols">
+            <div className="col-lg-6 comp-cols">
               <a href="https://dribbble.com/shots/20591072-mobile-app-game-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={compthree} alt="artwork" /></a>
             </div>
-            <div className="col-lg-4 comp-cols">
+            {/* <div className="col-lg-4 comp-cols">
               <a href="https://dribbble.com/shots/20590741-mobile-game-concept-screens" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={comptwo} alt="artwork" /></a>
-            </div>
+            </div> */}
           </div>
 
           <div className="row my-4 mx-1 pb-5 sample-row d-flex">
