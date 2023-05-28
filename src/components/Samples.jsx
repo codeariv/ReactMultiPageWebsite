@@ -31,15 +31,15 @@ function Samples() {
       <div className="row my-5">
         <div className="col-lg-12">
           <div className="row">
-            <div className="col-lg-12 mb-3">
+            <div className="col-lg-12">
               <small>person</small><br />
               <h1 className="col-lg-12 p-0 mb-3">David Melkonian</h1>
               <small>page</small><br />
-              <h2 className="col-lg-12 p-0 mb-3 page-title">Samples</h2>
+              <h2 className="col-lg-12 p-0 page-title">Samples</h2>
             </div>
           </div>
 
-          <div className="row my-5 pb-5 sample-row d-flex">
+          <div className="row my-4 pb-5 sample-row d-flex">
             <div className="col-lg-12 text-card">
                 <h3 className="mb-3">
                   Various Digital Art&nbsp;&nbsp;&nbsp;

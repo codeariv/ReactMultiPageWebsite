@@ -204,7 +204,8 @@ a {
   background: #1c77c3;
   padding: 15px;
   color: white;
-  border-radius: 5px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 .text-card a,
 .text-card h3  {
@@ -222,13 +223,11 @@ a {
 }
 .grow { 
   transition: all .2s ease-in-out; 
-  }
-  
+}
 .grow:hover,
 .grow:active { 
   transform: scale(1.1); 
 }
-
 .comp-cols {
   background: transparent;
   padding: 10px;
