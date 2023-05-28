@@ -196,7 +196,6 @@ a {
   width: 100%;
   height: 100%;
   padding: 15px;
-  background: white;
   border-radius: 5px;
 }
 .text-card  {
@@ -225,9 +224,10 @@ a {
   transition: all .2s ease-in-out; 
   }
   
-  .grow:hover { 
+.grow:hover,
+.grow:active { 
   transform: scale(1.1); 
-  }
+}
 
 .comp-cols {
   background: transparent;
