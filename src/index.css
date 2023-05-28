@@ -1,8 +1,14 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #efe6dd;
   color: black;
   font-size: 1.25rem;
+  position: relative;
 }
 
 h1 {
