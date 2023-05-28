@@ -29,7 +29,7 @@ function Samples() {
   <img className="img-art-two" src={artgear} alt="vinyl artwork" />
     <div className="container">
       <div className="row my-5">
-        <div className="col-lg-12">
+        <div className="col-lg-12 mx-3">
           <div className="row">
             <div className="col-lg-12">
               <small>person</small><br />
@@ -39,11 +39,10 @@ function Samples() {
             </div>
           </div>
 
-          <div className="row my-4 pb-5 sample-row d-flex">
+          <div className="row my-4 mx-1 pb-5 sample-row d-flex">
             <div className="col-lg-12 text-card">
                 <h3 className="mb-3">
                   Various Digital Art&nbsp;&nbsp;&nbsp;
-                  
                 </h3>
                 <p>These are various cover art concepts and digital assets.</p>
                 <small><a href="https://dribbble.com/davemelk100">Dribble Portfolio</a></small>
@@ -78,7 +77,7 @@ function Samples() {
           </div>
 
 
-          <div className="row my-5 pb-5 sample-row d-flex">
+          <div className="row my-4 mx-1 pb-5 sample-row d-flex">
             <div className="col-lg-12 text-card">
               <h3 className="mb-3">
                 <a href="https://dribbble.com/davemelk100" target="_blank" rel="noopener noreferrer">Mobile App game concept</a>
@@ -97,7 +96,7 @@ function Samples() {
             </div>
           </div>
 
-          <div className="row my-5 pb-5 sample-row d-flex">
+          <div className="row my-4 mx-1 pb-5 sample-row d-flex">
             <div className="col-lg-12 text-card">
               <h3 className="mb-3">
                 <a href="https://dribbble.com/davemelk100" target="_blank" rel="noopener noreferrer">Mobile App ticketing system</a>
@@ -117,11 +116,7 @@ function Samples() {
             </div>
           </div>
 
-
-          
-
-
-          <div className="row my-5 pb-5 sample-row d-flex">
+          <div className="row my-4 mx-1 pb-5 sample-row d-flex">
             <div className="col-lg-12 text-card">
               <h3 className="mb-3">
                 <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer">Various Wirefames/Sketches</a>
@@ -146,13 +141,10 @@ function Samples() {
             <div className="col-lg-12 comp-cols">
               <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={wiresix} alt="artwork" /></a>
             </div>
-
-
-            
           </div>
 
 
-          <div className="row mb-4">
+          <div className="row my-4 mx-1 p-4 sample-row d-flex">
             <div className="col-lg-12">
               <small className="mb-0">sample links</small><br/>
                 <ul className="list-unstyled">
@@ -162,42 +154,45 @@ function Samples() {
                   <li><a href="https://davemelkcom.files.wordpress.com/2021/10/uxui-solution-examples.pdf">UX/UI Solution Use Cases</a></li>
                   <li><a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf">UX/UI Random Sketches</a></li>
                 </ul>
-                <small className="mb-0">project</small><br/>
-                <a className="h5 font-weight-bold" href="https://www.mysmilecoverage.com/">Delta Dental of Michigan - Individual Shopping platform</a>
             </div>
           </div>
 
+          <div className="row my-4 mx-1 p-4 sample-row d-flex flex-column">
+          <small className="mb-0">project</small><br/>
+                <a className="h5 font-weight-bold" href="https://www.mysmilecoverage.com/">Delta Dental of Michigan - Individual Shopping platform</a>
+            <div className="col-lg-12">
+              <small className="mb-0">role</small><br/>
+              <p className="mb-2">Senior Application Developer</p>
+            </div>
+            <div className="col-lg-12">
 
-          <div>
-            <small className="mb-0">role</small><br/>
-            <p className="mb-2">Senior Application Developer</p>
+              <small className="mb-0">contributions</small>
+              <ul className="mb-5">
+                <li>Created responsive front end for an Angular application using Bootstrap and significant custom HTML and CSS.</li>
+                <li>Created Freemarker templates for a Magnolia Content Management System</li>
+                <li>Conducted code reviews and desk checks</li>
+                <li>Performed accessibility reviews and implemented technical solutions for any issues</li>
+                <li>Built a living style guide / design system for reference when project was initiated</li>
+                <li>Collaborated with design agency to ensure design systems are technically feasible</li>
+              </ul>
+             
+              </div>
+            <div className="col-lg-12 d-flex flex-column">
+                <small className="mb-0">project</small>
+                <a className="h5 font-weight-bold" href="https://www.memberportal.com/">Delta Dental of Michigan - Member Portal</a>
+              <small className="mb-0 ">role</small><br/>
+              <p className="mb-2">Senior Application Developer</p>
+            </div>
+            <small className="mb-0 ">contributions</small>
+            <ul>
+              <li>Extended the individual shopping design system using Angular with custom HTML and CSS</li>
+              <li>Troubleshooting JavaScript/HTML/CSS/etc</li>
+              <li>Conducted code reviews and desk checks</li>
+              <li>Conducted heuristic evaluations of product to identify user experience issues</li>
+              <li>Performed accessibility reviews and implemented technical solutions for discovered issues</li>
+            </ul>
           </div>
-          <small className="mb-0">contributions</small>
-          <ul className="mb-5">
-            <li>Created responsive front end for an Angular application using Bootstrap and significant custom HTML and CSS.</li>
-            <li>Created Freemarker templates for a Magnolia Content Management System</li>
-            <li>Conducted code reviews and desk checks</li>
-            <li>Performed accessibility reviews and implemented technical solutions for any issues</li>
-            <li>Built a living style guide / design system for reference when project was initiated</li>
-            <li>Collaborated with design agency to ensure design systems are technically feasible</li>
-          </ul>
-          <div className="mb-2">
-            <small className="mb-0">project</small><br/>
-            <a className="h5 font-weight-bold" href="https://www.memberportal.com/">Delta Dental of Michigan - Member Portal</a>
           </div>
-          <div>
-            <small className="mb-0 ">role</small><br/>
-            <p className="mb-2">Senior Application Developer</p>
-          </div>
-          <small className="mb-0 ">contributions</small>
-          <ul>
-            <li>Extended the individual shopping design system using Angular with custom HTML and CSS</li>
-            <li>Troubleshooting JavaScript/HTML/CSS/etc</li>
-            <li>Conducted code reviews and desk checks</li>
-            <li>Conducted heuristic evaluations of product to identify user experience issues</li>
-            <li>Performed accessibility reviews and implemented technical solutions for discovered issues</li>
-          </ul>
-        </div>
       </div>
     </div>
   </div>
