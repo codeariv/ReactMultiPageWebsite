@@ -108,7 +108,7 @@ function Samples() {
                   <li className="mb-5">Troubleshooting JavaScript/HTML/CSS/etc</li>
                   <li className="mb-5">Conducted code reviews and desk checks</li>
                   <li className="mb-5">Conducted heuristic evaluations of product to identify user experience issues</li>
-                  <li className="mb-4">Created the digitalaccessibility discipline for Delta Dental</li>
+                  <li className="mb-4">Created the digital accessibility discipline for Delta Dental</li>
                   <li className="mb-5">Performed accessibility reviews and implemented technical solutions for discovered issues</li>
                 </ul>
               </div>
