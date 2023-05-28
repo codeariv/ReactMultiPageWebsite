@@ -189,6 +189,7 @@ a {
 .page-title {
   text-shadow: #efe4d9 1px 2px;
   color: #1c77c3;
+  text-transform: uppercase;
 }
 .delta-size {
   height: 20%;

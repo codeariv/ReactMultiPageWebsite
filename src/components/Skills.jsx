@@ -9,7 +9,7 @@ function Skills() {
       <img className="img-art-two" src={recordthree} alt="vinyl artwork" />
       <div className="container">
         <div className="row my-5">
-          <div className="col-lg-12 mx-3">
+          <div className="col-lg-12 mx-0">
             <div className="row">
               <div className="col-lg-12 mb-3">
                 <Person />

@@ -33,7 +33,7 @@ function Samples() {
       <img className="img-art-two" src={artgear} alt="artwork" />
       <div className="container">
         <div className="row my-5">
-          <div className="col-lg-12 mx-3">
+          <div className="col-lg-12 mx-0">
             <div className="row">
               <div className="col-lg-12">
                 <Person />
