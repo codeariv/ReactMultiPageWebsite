@@ -49,31 +49,31 @@ function Samples() {
                 <small><a href="https://dribbble.com/davemelk100">Dribble Portfolio</a></small>
               </div>
               <div className="col-lg-4 comp-cols">
-                <a href="" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={recordtwo} alt="artwork" /></a>
+                <a href="https://dribbble.com/shots/20590753-7-inch-record-picture-disc-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={recordtwo} alt="artwork" /></a>
               </div>
               <div className="col-lg-4 comp-cols">
-                <a href="" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={recordone} alt="artwork" /></a>
+                <a href="https://dribbble.com/shots/21583976-Hands-disappear" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={recordone} alt="artwork" /></a>
               </div>
               <div className="col-lg-4 comp-cols">
-                <a href="" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={artstag} alt="artwork" /></a>
+                <a href="https://dribbble.com/shots/21583983-Staggered-and-Spinning-and-Multiplying" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={artstag} alt="artwork" /></a>
               </div>
               <div className="col-lg-4 comp-cols">
-                <a href="h" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={artlockup} alt="artwork" /></a>
+                <a href="https://dribbble.com/shots/20590849-screen-lock-experiment" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={artlockup} alt="artwork" /></a>
               </div>
               <div className="col-lg-4 comp-cols">
-                <a href="" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={artdots} alt="artwork" /></a>
+                <a href="https://dribbble.com/shots/20602411-all-hands" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={artdots} alt="artwork" /></a>
               </div>
               <div className="col-lg-4 comp-cols">
-                <a href="" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={artgear} alt="artwork" /></a>
+                <a href="https://dribbble.com/shots/21583993-Small-Movements-in-a-Giant-Machine" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={artgear} alt="artwork" /></a>
               </div>
               <div className="col-lg-4 comp-cols">
-                <a href="" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={artlionsblack} alt="artwork" /></a>
+                <a href="https://dribbble.com/shots/20590794-band-shirt-design" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={artlionsblack} alt="artwork" /></a>
               </div>
               <div className="col-lg-4 comp-cols">
-                <a href="" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={arthands} alt="artwork" /></a>
+                <a href="https://dribbble.com/shots/21583998-All-Hands" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={arthands} alt="artwork" /></a>
               </div>
               <div className="col-lg-4 comp-cols">
-                <a href="" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={artgenuine} alt="artwork" /></a>
+                <a href="https://dribbble.com/shots/21584003-Seems-Authentic-I-mean-right" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={artgenuine} alt="artwork" /></a>
               </div>
           </div>
 
@@ -178,8 +178,8 @@ function Samples() {
             <li>Created Freemarker templates for a Magnolia Content Management System</li>
             <li>Conducted code reviews and desk checks</li>
             <li>Performed accessibility reviews and implemented technical solutions for any issues</li>
-            <li>Built a living style guide for reference when project was initiated</li>
-            <li>Worked with design agency to ensure designs are technically feasible</li>
+            <li>Built a living style guide / design system for reference when project was initiated</li>
+            <li>Collaborated with design agency to ensure design systems are technically feasible</li>
           </ul>
           <div className="mb-2">
             <small className="mb-0">project</small><br/>
