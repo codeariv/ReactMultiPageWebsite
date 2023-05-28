@@ -9,7 +9,7 @@ h1 {
   margin: 0;
   display: flex;
   justify-content: flex-start;
-  text-shadow: white 2px 4px;
+  text-shadow: #efe4d9 1px 2px;
 }
 
 h2 {
@@ -181,7 +181,7 @@ a {
   opacity: .5;
 }
 .page-title {
-  text-shadow: white 2px 5px;
+  text-shadow: #efe4d9 1px 2px;
   color: #1c77c3;
 }
 .delta-size {
