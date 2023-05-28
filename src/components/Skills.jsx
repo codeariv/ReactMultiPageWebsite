@@ -9,7 +9,7 @@ function Skills() {
       <img className="img-art-two" src={recordthree} alt="vinyl artwork" />
       <div className="container">
         <div className="row my-5">
-        <div className="col-lg-12 mx-3">
+          <div className="col-lg-12 mx-3">
             <div className="row">
               <div className="col-lg-12 mb-3">
                 <Person />
@@ -35,12 +35,12 @@ function Skills() {
 
                 <h3>Package Management</h3>
                 <ul>
-                    <li>NPM</li>
-                    <li>Gulp</li>
-                    <li>Yarn</li>
-                    <li>NuGet</li>
-                    <li>Homebrew</li>
-                    <li>Yarn</li>
+                  <li>NPM</li>
+                  <li>Gulp</li>
+                  <li>Yarn</li>
+                  <li>NuGet</li>
+                  <li>Homebrew</li>
+                  <li>Yarn</li>
                 </ul>
 
 
@@ -49,7 +49,7 @@ function Skills() {
                   <li>Github / Bitbucket / Azure</li>
                   <li>Visual Studio / Intellij / Notepad++ / Github Codespaces</li>
                 </ul>
-              
+
                 <p></p>
               </div>
             </div>

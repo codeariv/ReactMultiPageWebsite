@@ -29,19 +29,19 @@ import artprizevenue from './artprizevenue.png';
 function Samples() {
   return (
 
-<div className="home">
-  <img className="img-art-two" src={artgear} alt="artwork" />
-    <div className="container">
-      <div className="row my-5">
-        <div className="col-lg-12 mx-3">
-          <div className="row">
-            <div className="col-lg-12">
-            <Person />
-              <h2 className="col-lg-12 p-0 page-title">Samples</h2>
+    <div className="home">
+      <img className="img-art-two" src={artgear} alt="artwork" />
+      <div className="container">
+        <div className="row my-5">
+          <div className="col-lg-12 mx-3">
+            <div className="row">
+              <div className="col-lg-12">
+                <Person />
+                <h2 className="col-lg-12 p-0 page-title">Samples</h2>
+              </div>
             </div>
-          </div>
-         
-          <div className="row my-5 mx-1 sample-row d-flex flex-row">
+
+            <div className="row my-5 mx-1 sample-row d-flex flex-row">
               <div className="col-lg-12 text-card">
                 <h3 className="mb-3">
                   Projects&nbsp;&nbsp;&nbsp;
@@ -49,74 +49,74 @@ function Samples() {
                 <p>These are roles and projects within which I have participated.</p>
                 <small><a href="https://docs.google.com/document/d/194Y7nvZMypnbAiT-F51o4PI05_dS7X7i26euKBHTyTA/edit?usp=sharing">Resume</a></small>
               </div>
-            <div className="col-lg-6 p-4">
-              <img className="grow sample-img" src={artprizesearch} alt="artwork" />
-              <img className="grow sample-img" src={artprizevenue} alt="artwork" />
-            </div>
-            <div className="col-lg-6 mt-5 d-flex flex-column justify-content-center">
-              <small className="mb-0">project</small>
-              <a className="h5 font-weight-bold" href="https://www.artprize.org/">ArtPrize</a><br />
-              <small className="mb-0">role</small>
-              <p className="mb-2">Senior Application Developer</p><br/>
-              <small className="mb-0">contributions</small>
-              <ul className="mb-5 pt-0 pb-4 py-0">
-                <li className="mb-4">Created responsive front end for a .NET application with Razor templates</li>
-                <li className="mb-4">Collaborated with creative team to implement the design</li>
-                <li className="mb-4">Interpreted wireframes to illustrate workflow</li>
-                <li className="mb-4">Created working prototype of an Umbraco CMS</li>
-                <li className="mb-4">Implemented a carousel mechanism to prominently display the artists' work</li>
-                <li className="mb-4">Built a Masonry layout for search results (a la Pinterest)</li>
-                <li className="mb-4">Designed and built a banner and edit button treatment for all editing pages</li>
-                <li className="mb-4">Created style and layout for admin pages, confirmation messages, and alerts</li>
-                <li className="mb-4">Maintained a design system including all controls and typography</li>
-              </ul>
-            </div>
-            <div className="col-lg-6 mt-5 d-flex flex-column justify-content-center">
-              <small className="mb-0">project</small>
-              <a className="h5 font-weight-bold" href="https://www.mysmilecoverage.com/">Delta Dental of Michigan - Individual Shopping platform</a><br />
-              <small className="mb-0">role</small>
-              <p className="mb-2">Senior Application Developer</p><br/>
-              <small className="mb-0">contributions</small>
-              <ul className="mb-6">
-                <li className="mb-4">Created responsive front end for an Angular application using Bootstrap and significant custom HTML and CSS.</li>
-                <li className="mb-4">Created Freemarker templates for a Magnolia CMS</li>
-                <li className="mb-4">Created alternate theme for Renaissance company</li>
-                <li className="mb-4">Managed UX/UI team at onset of Roosevelt Solutions SaaS project</li>
-                <li className="mb-4">Ran the UX/UI council at Delta Dental</li>
-                <li className="mb-4">Performed accessibility reviews and implemented technical solutions for any issues</li>
-                <li className="mb-4">Built a living style guide / design system for reference when project was initiated</li>
-                <li className="mb-4">Collaborated with design agency to ensure design systems are technically feasible</li>
-              </ul>
-            </div>
-            <div className="col-lg-6 mb-5">
-              <img className="grow sample-img" src={deltaportal} alt="artwork" />
-              <img className="grow sample-img" src={renshopping} alt="artwork" />
+              <div className="col-lg-6 p-4">
+                <img className="grow sample-img" src={artprizesearch} alt="artwork" />
+                <img className="grow sample-img" src={artprizevenue} alt="artwork" />
+              </div>
+              <div className="col-lg-6 mt-5 d-flex flex-column justify-content-center">
+                <small className="mb-0">project</small>
+                <a className="h5 font-weight-bold" href="https://www.artprize.org/">ArtPrize</a><br />
+                <small className="mb-0">role</small>
+                <p className="mb-2">Senior Application Developer</p><br />
+                <small className="mb-0">contributions</small>
+                <ul className="mb-5 pt-0 pb-4 py-0">
+                  <li className="mb-4">Created responsive front end for a .NET application with Razor templates</li>
+                  <li className="mb-4">Collaborated with creative team to implement the design</li>
+                  <li className="mb-4">Interpreted wireframes to illustrate workflow</li>
+                  <li className="mb-4">Created working prototype of an Umbraco CMS</li>
+                  <li className="mb-4">Implemented a carousel mechanism to prominently display the artists' work</li>
+                  <li className="mb-4">Built a Masonry layout for search results (a la Pinterest)</li>
+                  <li className="mb-4">Designed and built a banner and edit button treatment for all editing pages</li>
+                  <li className="mb-4">Created style and layout for admin pages, confirmation messages, and alerts</li>
+                  <li className="mb-4">Maintained a design system including all controls and typography</li>
+                </ul>
+              </div>
+              <div className="col-lg-6 mt-5 d-flex flex-column justify-content-center">
+                <small className="mb-0">project</small>
+                <a className="h5 font-weight-bold" href="https://www.mysmilecoverage.com/">Delta Dental of Michigan - Individual Shopping platform</a><br />
+                <small className="mb-0">role</small>
+                <p className="mb-2">Senior Application Developer</p><br />
+                <small className="mb-0">contributions</small>
+                <ul className="mb-6">
+                  <li className="mb-4">Created responsive front end for an Angular application using Bootstrap and significant custom HTML and CSS.</li>
+                  <li className="mb-4">Created Freemarker templates for a Magnolia CMS</li>
+                  <li className="mb-4">Created alternate theme for Renaissance company</li>
+                  <li className="mb-4">Managed UX/UI team at onset of Roosevelt Solutions SaaS project</li>
+                  <li className="mb-4">Ran the UX/UI council at Delta Dental</li>
+                  <li className="mb-4">Performed accessibility reviews and implemented technical solutions for any issues</li>
+                  <li className="mb-4">Built a living style guide / design system for reference when project was initiated</li>
+                  <li className="mb-4">Collaborated with design agency to ensure design systems are technically feasible</li>
+                </ul>
+              </div>
+              <div className="col-lg-6 mb-5">
+                <img className="grow sample-img" src={deltaportal} alt="artwork" />
+                <img className="grow sample-img" src={renshopping} alt="artwork" />
+              </div>
+
+              <div className="col-lg-6 mt-5">
+                <img className="grow sample-img" src={deltaportaltwo} alt="artwork" />
+                <img className="grow sample-img" src={renlogin} alt="artwork" />
+              </div>
+              <div className="col-lg-6 mt-5 d-flex flex-column justify-content-center">
+                <small className="mb-0">project</small>
+                <a className="h5 font-weight-bold" href="https://www.memberportal.com/">Delta Dental of Michigan - Member Portal</a><br />
+                <small className="mb-0">role</small>
+                <p className="mb-2">Senior Application Developer</p><br />
+                <small className="mb-0 ">contributions</small>
+                <ul className="mb-5">
+                  <li className="mb-5">Extended the individual shopping design system using Angular with custom HTML and CSS</li>
+                  <li className="mb-5">Troubleshooting JavaScript/HTML/CSS/etc</li>
+                  <li className="mb-5">Conducted code reviews and desk checks</li>
+                  <li className="mb-5">Conducted heuristic evaluations of product to identify user experience issues</li>
+                  <li className="mb-4">Created the digitalaccessibility discipline for Delta Dental</li>
+                  <li className="mb-5">Performed accessibility reviews and implemented technical solutions for discovered issues</li>
+                </ul>
+              </div>
+
             </div>
 
-            <div className="col-lg-6 mt-5">
-              <img className="grow sample-img" src={deltaportaltwo} alt="artwork" />
-              <img className="grow sample-img" src={renlogin} alt="artwork" />
-            </div>
-          <div className="col-lg-6 mt-5 d-flex flex-column justify-content-center">
-            <small className="mb-0">project</small>
-              <a className="h5 font-weight-bold" href="https://www.memberportal.com/">Delta Dental of Michigan - Member Portal</a><br />
-              <small className="mb-0">role</small>
-              <p className="mb-2">Senior Application Developer</p><br />
-              <small className="mb-0 ">contributions</small>
-              <ul className="mb-5">
-                <li className="mb-5">Extended the individual shopping design system using Angular with custom HTML and CSS</li>
-                <li className="mb-5">Troubleshooting JavaScript/HTML/CSS/etc</li>
-                <li className="mb-5">Conducted code reviews and desk checks</li>
-                <li className="mb-5">Conducted heuristic evaluations of product to identify user experience issues</li>
-                <li className="mb-4">Created the digitalaccessibility discipline for Delta Dental</li>
-                <li className="mb-5">Performed accessibility reviews and implemented technical solutions for discovered issues</li>
-              </ul>
-           </div>
-
-          </div>
-          
-          <div className="row my-5 mx-1 pb-5 sample-row d-flex">
-            <div className="col-lg-12 text-card">
+            <div className="row my-5 mx-1 pb-5 sample-row d-flex">
+              <div className="col-lg-12 text-card">
                 <h3 className="mb-3">
                   Various Digital Art&nbsp;&nbsp;&nbsp;
                 </h3>
@@ -150,79 +150,79 @@ function Samples() {
               <div className="col-lg-4 comp-cols">
                 <a href="https://dribbble.com/shots/21584003-Seems-Authentic-I-mean-right" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={artgenuine} alt="artwork" /></a>
               </div>
-          </div>
+            </div>
 
 
-          <div className="row my-5 mx-1 pb-5 sample-row d-flex">
-            <div className="col-lg-12 text-card">
-              <h3 className="mb-3">
-                <a href="https://dribbble.com/davemelk100" target="_blank" rel="noopener noreferrer">Mobile App game concept</a>
-              </h3>
-              <p>This group listening app concept began organically as a game we would play on road trips.</p>
-              <p>Project is fully conceptualized and is in progress.</p>
-            </div>
-            <div className="col-lg-6 comp-cols">
-              <a href="https://dribbble.com/shots/20622909-mobile-game-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={compfour} alt="artwork" /></a>
-            </div>
-            <div className="col-lg-6 comp-cols">
-              <a href="https://dribbble.com/shots/20591072-mobile-app-game-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={compthree} alt="artwork" /></a>
-            </div>
-            {/* <div className="col-lg-4 comp-cols">
+            <div className="row my-5 mx-1 pb-5 sample-row d-flex">
+              <div className="col-lg-12 text-card">
+                <h3 className="mb-3">
+                  <a href="https://dribbble.com/davemelk100" target="_blank" rel="noopener noreferrer">Mobile App game concept</a>
+                </h3>
+                <p>This group listening app concept began organically as a game we would play on road trips.</p>
+                <p>Project is fully conceptualized and is in progress.</p>
+              </div>
+              <div className="col-lg-6 comp-cols">
+                <a href="https://dribbble.com/shots/20622909-mobile-game-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={compfour} alt="artwork" /></a>
+              </div>
+              <div className="col-lg-6 comp-cols">
+                <a href="https://dribbble.com/shots/20591072-mobile-app-game-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={compthree} alt="artwork" /></a>
+              </div>
+              {/* <div className="col-lg-4 comp-cols">
               <a href="https://dribbble.com/shots/20590741-mobile-game-concept-screens" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={comptwo} alt="artwork" /></a>
             </div> */}
-          </div>
+            </div>
 
-          <div className="row my-5 mx-1 pb-5 sample-row d-flex">
-            <div className="col-lg-12 text-card">
-              <h3 className="mb-3">
-                <a href="https://dribbble.com/davemelk100" target="_blank" rel="noopener noreferrer">Mobile App ticketing system</a>
-              </h3>
-              <p>This was a POC for a potential market offering.</p>
-              <p>Project is complete but only available to internal employees.</p>
-              <p>Check out the <a href="https://www.figma.com/proto/IaGShRQDs0RRld07kLP9G5/dewpoint-mobile-app-copy-2?node-id=201-315&scaling=min-zoom&page-id=201%3A45&starting-point-node-id=201%3A315&hide-ui=1" target="_blank" rel="noopener noreferrer">protype app.</a></p>
-            </div>
-            <div className="col-lg-5 comp-cols">
-              <a href="https://dribbble.com/shots/20590937-mobile-app-ticketing-system-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={compfive} alt="artwork" /></a>
-            </div>
-            <div className="col-lg-7 comp-cols">
-              <a href="https://dribbble.com/shots/20590951-mobile-app-ticketing-system-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={compsix} alt="artwork" /></a>
-            </div>
-            {/* <div className="col-lg-4 comp-cols">
+            <div className="row my-5 mx-1 pb-5 sample-row d-flex">
+              <div className="col-lg-12 text-card">
+                <h3 className="mb-3">
+                  <a href="https://dribbble.com/davemelk100" target="_blank" rel="noopener noreferrer">Mobile App ticketing system</a>
+                </h3>
+                <p>This was a POC for a potential market offering.</p>
+                <p>Project is complete but only available to internal employees.</p>
+                <p>Check out the <a href="https://www.figma.com/proto/IaGShRQDs0RRld07kLP9G5/dewpoint-mobile-app-copy-2?node-id=201-315&scaling=min-zoom&page-id=201%3A45&starting-point-node-id=201%3A315&hide-ui=1" target="_blank" rel="noopener noreferrer">protype app.</a></p>
+              </div>
+              <div className="col-lg-5 comp-cols">
+                <a href="https://dribbble.com/shots/20590937-mobile-app-ticketing-system-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={compfive} alt="artwork" /></a>
+              </div>
+              <div className="col-lg-7 comp-cols">
+                <a href="https://dribbble.com/shots/20590951-mobile-app-ticketing-system-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={compsix} alt="artwork" /></a>
+              </div>
+              {/* <div className="col-lg-4 comp-cols">
               <a href="https://dribbble.com/shots/20622858-mobile-app-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={compeight} alt="artwork" /></a>
             </div> */}
-          </div>
+            </div>
 
-          <div className="row my-5 mx-1 pb-5 sample-row d-flex">
-            <div className="col-lg-12 text-card">
-              <h3 className="mb-3">
-                <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer">Various Wirefames/Sketches</a>
-              </h3>
-              <p>These are random lo-fi wireframes I've made over the years.</p>
+            <div className="row my-5 mx-1 pb-5 sample-row d-flex">
+              <div className="col-lg-12 text-card">
+                <h3 className="mb-3">
+                  <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer">Various Wirefames/Sketches</a>
+                </h3>
+                <p>These are random lo-fi wireframes I've made over the years.</p>
+              </div>
+              <div className="col-lg-4 comp-cols">
+                <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={wireone} alt="artwork" /></a>
+              </div>
+              <div className="col-lg-4 comp-cols">
+                <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={wiretwo} alt="artwork" /></a>
+              </div>
+              <div className="col-lg-4 comp-cols">
+                <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={wirethree} alt="artwork" /></a>
+              </div>
+              <div className="col-lg-6 comp-cols">
+                <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={wirefour} alt="artwork" /></a>
+              </div>
+              <div className="col-lg-6 comp-cols">
+                <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={wirefive} alt="artwork" /></a>
+              </div>
+              <div className="col-lg-12 comp-cols">
+                <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={wiresix} alt="artwork" /></a>
+              </div>
             </div>
-            <div className="col-lg-4 comp-cols">
-              <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={wireone} alt="artwork" /></a>
-            </div>
-            <div className="col-lg-4 comp-cols">
-              <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={wiretwo} alt="artwork" /></a>
-            </div>
-            <div className="col-lg-4 comp-cols">
-              <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={wirethree} alt="artwork" /></a>
-            </div>
-            <div className="col-lg-6 comp-cols">
-              <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={wirefour} alt="artwork" /></a>
-            </div>
-            <div className="col-lg-6 comp-cols">
-              <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={wirefive} alt="artwork" /></a>
-            </div>
-            <div className="col-lg-12 comp-cols">
-              <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={wiresix} alt="artwork" /></a>
-            </div>
-          </div>
 
 
-          <div className="row my-5 mx-1 p-4 sample-row d-flex">
-            <div className="col-lg-12">
-              <small className="mb-0">sample links</small><br/>
+            <div className="row my-5 mx-1 p-4 sample-row d-flex">
+              <div className="col-lg-12">
+                <small className="mb-0">sample links</small><br />
                 <ul className="list-unstyled">
                   <li className="mb-4"><a href="https://www.figma.com/proto/IaGShRQDs0RRld07kLP9G5/dewpoint-mobile-app-copy-2?node-id=201-315&scaling=min-zoom&page-id=201%3A45&starting-point-node-id=201%3A315&hide-ui=1">Mobile App Prototype - Help Desk</a></li>
                   <li className="mb-4"><a href="https://davemelkwork.com/frame">Mobile App Prototype - Rx App</a></li>
@@ -230,14 +230,14 @@ function Samples() {
                   <li className="mb-4"><a href="https://davemelkcom.files.wordpress.com/2021/10/uxui-solution-examples.pdf">UX/UI Solution Use Cases</a></li>
                   <li className="mb-4"><a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf">UX/UI Random Sketches</a></li>
                 </ul>
+              </div>
             </div>
-          </div>
 
-          
+
           </div>
+        </div>
       </div>
     </div>
-  </div>
-    );
-  }
-  export default Samples;
+  );
+}
+export default Samples;
