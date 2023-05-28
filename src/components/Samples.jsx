@@ -45,7 +45,7 @@ function Samples() {
           <div className="row my-5 mx-1 sample-row d-flex flex-row">
               <div className="col-lg-12 text-card">
                 <h3 className="mb-3">
-                  Experience&nbsp;&nbsp;&nbsp;
+                  Projects&nbsp;&nbsp;&nbsp;
                 </h3>
                 <p>These are roles and projects within which I have participated.</p>
                 <small><a href="https://docs.google.com/document/d/194Y7nvZMypnbAiT-F51o4PI05_dS7X7i26euKBHTyTA/edit?usp=sharing">Resume</a></small>
