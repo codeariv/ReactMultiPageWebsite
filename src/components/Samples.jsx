@@ -38,7 +38,7 @@ function Samples() {
               <small>person</small><br />
               <h1 className="col-lg-12 p-0 mb-3">David Melkonian</h1>
               <small>page</small><br />
-              <h2 className="col-lg-12 p-0 page-title">Experience + Samples</h2>
+              <h2 className="col-lg-12 p-0 page-title">Samples</h2>
             </div>
           </div>
          
@@ -109,7 +109,7 @@ function Samples() {
                 <li className="mb-5">Troubleshooting JavaScript/HTML/CSS/etc</li>
                 <li className="mb-5">Conducted code reviews and desk checks</li>
                 <li className="mb-5">Conducted heuristic evaluations of product to identify user experience issues</li>
-                <li className="mb-4">Created the digital accessibility discipline for Delta Dental</li>
+                <li className="mb-4">Created the digitalaccessibility discipline for Delta Dental</li>
                 <li className="mb-5">Performed accessibility reviews and implemented technical solutions for discovered issues</li>
               </ul>
            </div>
