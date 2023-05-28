@@ -10,7 +10,6 @@ import {
   Samples,
   Skills,
   Contact,
-  Scroll,
   Blog,
   Posts,
   Post,
@@ -24,7 +23,6 @@ ReactDOM.render(
       <Route path="/samples" element={<Samples />} />
       <Route path="/skills" element={<Skills />} />
       <Route path="/contact" element={<Contact />} />
-      <Route path="/scroll" element={<Scroll />} />
       <Route path="/blog" element={<Blog />}>
         <Route path="" element={<Posts />} />
         <Route path=":postSlug" element={<Post />} />

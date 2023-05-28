@@ -11,7 +11,7 @@ function Post() {
   return (
     <div className="home">
       <div class="container">
-        <h1 className="mt-5">This is a Post Title</h1>
+        <h1 className="mt-5">This is a Post Person</h1>
         <h6 className="mb-5">The post slug is, {postSlug}</h6>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting

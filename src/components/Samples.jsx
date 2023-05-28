@@ -1,4 +1,5 @@
 import React from "react";
+import Person from './Person'
 import compthree from './compthree.png';
 import compfour from './compfour.png';
 import compfive from './compfive.png';
@@ -29,15 +30,13 @@ function Samples() {
   return (
 
 <div className="home">
-  <img className="img-art-two" src={artgear} alt="vinyl artwork" />
+  <img className="img-art-two" src={artgear} alt="artwork" />
     <div className="container">
       <div className="row my-5">
         <div className="col-lg-12 mx-3">
           <div className="row">
             <div className="col-lg-12">
-              <small>person</small><br />
-              <h1 className="col-lg-12 p-0 mb-3">David Melkonian</h1>
-              <small>page</small><br />
+            <Person />
               <h2 className="col-lg-12 p-0 page-title">Samples</h2>
             </div>
           </div>

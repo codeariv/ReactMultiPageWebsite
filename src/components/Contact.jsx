@@ -1,5 +1,6 @@
 import React from "react";
 import artlockup from './artlockup.png';
+import Person from './Person'
     
 function Contact () {
   return (
@@ -10,9 +11,7 @@ function Contact () {
         <div className="col-lg-12 mx-3">
             <div className="row">
               <div className="col-lg-12 mb-3">
-                <small>person</small><br />
-                <h1 className="col-lg-12 p-0 mb-3">David Melkonian</h1>
-                <small>page</small><br />
+                <Person />
                     <h2 className="col-lg-12 p-0 mb-3 page-title">Contact</h2>
                   </div>
                 </div>
