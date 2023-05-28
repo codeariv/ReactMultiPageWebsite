@@ -21,11 +21,13 @@ function Home() {
             <p>
               I am an experienced front-end developer with experience using HTML/CSS/Javascript/Typescript including
               React, Angular, Bootstrap, Razor, and more.  I've created responsive design frameworks by hand, created
-              graphic design systems and integrated them directly with front end code. I've created prototypes for mobile applications
-              and am fluent in Photoshop, Illustrator, Sketch, Figma and more. I've been fortunate to work on many applications of all sizes.
-              Some include the Delta Dental <a href='https://www.mysmilecoverage.com/delta/'>MySmileCoverage</a> site, Delta's
+              graphic design systems and integrated them directly with front end code. I've created wireframes, graphic 
+              comps, design systems, working prototypes and full coded POCs. I am fluent in Photoshop, Illustrator, Sketch and Figma. 
+              I've been fortunate to work on many applications of all sizes. Some include the Delta 
+              Dental <a href='https://www.mysmilecoverage.com/delta/'>MySmileCoverage</a> site, Delta's
               Dental's <a href="https://www.memberportal.com/mp/delta/">Member Portal</a> Delta's SaaS
-              product <a href='https://www.rooseveltsolutions.com/'>Roosevelt Solutions</a>, the <a href='https://www.healthcare.gov/'>HealthCare.gov</a> product, Blue Cross Blue Shield of Michigan's <a href='https://www.bcbsm.com/'>bcbsm.com</a>,
+              product <a href='https://www.rooseveltsolutions.com/'>Roosevelt Solutions</a>, the <a href='https://www.healthcare.gov/'>HealthCare.gov</a> product, 
+              Blue Cross Blue Shield of Michigan's <a href='https://www.bcbsm.com/'>bcbsm.com</a>,
               and <a href='https://www.mibcn.com/'>mibcn.com</a> along with countless others.
             </p>
             <p>
