@@ -1,10 +1,12 @@
 import React from "react";
-import comptwo from './comptwo.png';
 import compthree from './compthree.png';
 import compfour from './compfour.png';
 import compfive from './compfive.png';
 import compsix from './compsix.png';
-import compeight from './compeight.png';
+import renshopping from './renshopping.png';
+import renlogin from './renlogin.png';
+import deltaportal from './deltaportal.png';
+import deltaportaltwo from './deltaportaltwo.png';
 import wireone from './wireone.jpg';
 import wiretwo from './wiretwo.jpg';
 import wirethree from './wirethree.jpg';
@@ -20,7 +22,6 @@ import arthands from './arthands.png';
 import artgenuine from './artgenuine.png';
 import recordone from './recordone.png';
 import recordtwo from './stripes.png';
-
 
 function Samples() {
   return (
@@ -48,31 +49,31 @@ function Samples() {
                 <small><a href="https://dribbble.com/davemelk100">Dribble Portfolio</a></small>
               </div>
               <div className="col-lg-4 comp-cols">
-                <a href="https://dribbble.com/shots/20590753-7-inch-record-picture-disc-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={recordtwo} alt="artwork" /></a>
+                <a href="https://dribbble.com/shots/20590753-7-inch-record-picture-disc-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={recordtwo} alt="artwork" /></a>
               </div>
               <div className="col-lg-4 comp-cols">
-                <a href="https://dribbble.com/shots/21583976-Hands-disappear" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={recordone} alt="artwork" /></a>
+                <a href="https://dribbble.com/shots/21583976-Hands-disappear" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={recordone} alt="artwork" /></a>
               </div>
               <div className="col-lg-4 comp-cols">
-                <a href="https://dribbble.com/shots/21583983-Staggered-and-Spinning-and-Multiplying" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={artstag} alt="artwork" /></a>
+                <a href="https://dribbble.com/shots/21583983-Staggered-and-Spinning-and-Multiplying" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={artstag} alt="artwork" /></a>
               </div>
               <div className="col-lg-4 comp-cols">
-                <a href="https://dribbble.com/shots/20590849-screen-lock-experiment" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={artlockup} alt="artwork" /></a>
+                <a href="https://dribbble.com/shots/20590849-screen-lock-experiment" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={artlockup} alt="artwork" /></a>
               </div>
               <div className="col-lg-4 comp-cols">
-                <a href="https://dribbble.com/shots/20602411-all-hands" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={artdots} alt="artwork" /></a>
+                <a href="https://dribbble.com/shots/20602411-all-hands" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={artdots} alt="artwork" /></a>
               </div>
               <div className="col-lg-4 comp-cols">
-                <a href="https://dribbble.com/shots/21583993-Small-Movements-in-a-Giant-Machine" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={artgear} alt="artwork" /></a>
+                <a href="https://dribbble.com/shots/21583993-Small-Movements-in-a-Giant-Machine" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={artgear} alt="artwork" /></a>
               </div>
               <div className="col-lg-4 comp-cols">
-                <a href="https://dribbble.com/shots/20590794-band-shirt-design" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={artlionsblack} alt="artwork" /></a>
+                <a href="https://dribbble.com/shots/20590794-band-shirt-design" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={artlionsblack} alt="artwork" /></a>
               </div>
               <div className="col-lg-4 comp-cols">
-                <a href="https://dribbble.com/shots/21583998-All-Hands" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={arthands} alt="artwork" /></a>
+                <a href="https://dribbble.com/shots/21583998-All-Hands" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={arthands} alt="artwork" /></a>
               </div>
               <div className="col-lg-4 comp-cols">
-                <a href="https://dribbble.com/shots/21584003-Seems-Authentic-I-mean-right" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={artgenuine} alt="artwork" /></a>
+                <a href="https://dribbble.com/shots/21584003-Seems-Authentic-I-mean-right" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={artgenuine} alt="artwork" /></a>
               </div>
           </div>
 
@@ -86,13 +87,13 @@ function Samples() {
               <p>Project is fully conceptualized and is in progress.</p>
             </div>
             <div className="col-lg-6 comp-cols">
-              <a href="https://dribbble.com/shots/20622909-mobile-game-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={compfour} alt="artwork" /></a>
+              <a href="https://dribbble.com/shots/20622909-mobile-game-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={compfour} alt="artwork" /></a>
             </div>
             <div className="col-lg-6 comp-cols">
-              <a href="https://dribbble.com/shots/20591072-mobile-app-game-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={compthree} alt="artwork" /></a>
+              <a href="https://dribbble.com/shots/20591072-mobile-app-game-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={compthree} alt="artwork" /></a>
             </div>
             {/* <div className="col-lg-4 comp-cols">
-              <a href="https://dribbble.com/shots/20590741-mobile-game-concept-screens" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={comptwo} alt="artwork" /></a>
+              <a href="https://dribbble.com/shots/20590741-mobile-game-concept-screens" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={comptwo} alt="artwork" /></a>
             </div> */}
           </div>
 
@@ -106,13 +107,13 @@ function Samples() {
               <p>Check out the <a href="https://www.figma.com/proto/IaGShRQDs0RRld07kLP9G5/dewpoint-mobile-app-copy-2?node-id=201-315&scaling=min-zoom&page-id=201%3A45&starting-point-node-id=201%3A315&hide-ui=1" target="_blank" rel="noopener noreferrer">protype app.</a></p>
             </div>
             <div className="col-lg-5 comp-cols">
-              <a href="https://dribbble.com/shots/20590937-mobile-app-ticketing-system-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={compfive} alt="artwork" /></a>
+              <a href="https://dribbble.com/shots/20590937-mobile-app-ticketing-system-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={compfive} alt="artwork" /></a>
             </div>
             <div className="col-lg-7 comp-cols">
-              <a href="https://dribbble.com/shots/20590951-mobile-app-ticketing-system-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={compsix} alt="artwork" /></a>
+              <a href="https://dribbble.com/shots/20590951-mobile-app-ticketing-system-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={compsix} alt="artwork" /></a>
             </div>
             {/* <div className="col-lg-4 comp-cols">
-              <a href="https://dribbble.com/shots/20622858-mobile-app-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={compeight} alt="artwork" /></a>
+              <a href="https://dribbble.com/shots/20622858-mobile-app-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={compeight} alt="artwork" /></a>
             </div> */}
           </div>
 
@@ -124,22 +125,22 @@ function Samples() {
               <p>These are random lo-fi wireframes I've made over the years.</p>
             </div>
             <div className="col-lg-4 comp-cols">
-              <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={wireone} alt="artwork" /></a>
+              <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={wireone} alt="artwork" /></a>
             </div>
             <div className="col-lg-4 comp-cols">
-              <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={wiretwo} alt="artwork" /></a>
+              <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={wiretwo} alt="artwork" /></a>
             </div>
             <div className="col-lg-4 comp-cols">
-              <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={wirethree} alt="artwork" /></a>
+              <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={wirethree} alt="artwork" /></a>
             </div>
             <div className="col-lg-12 comp-cols">
-              <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={wirefour} alt="artwork" /></a>
+              <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={wirefour} alt="artwork" /></a>
             </div>
             <div className="col-lg-12 comp-cols">
-              <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={wirefive} alt="artwork" /></a>
+              <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={wirefive} alt="artwork" /></a>
             </div>
             <div className="col-lg-12 comp-cols">
-              <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer"><img className="grow sample-card" src={wiresix} alt="artwork" /></a>
+              <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={wiresix} alt="artwork" /></a>
             </div>
           </div>
 
@@ -157,41 +158,50 @@ function Samples() {
             </div>
           </div>
 
-          <div className="row my-4 mx-1 p-4 sample-row d-flex flex-column">
-          <small className="mb-0">project</small><br/>
-                <a className="h5 font-weight-bold" href="https://www.mysmilecoverage.com/">Delta Dental of Michigan - Individual Shopping platform</a>
-            <div className="col-lg-12">
+          <div className="row my-4 mx-1 p-4 sample-row d-flex flex-row">
+            <div className="col-lg-8">
+              <small className="mb-0">project</small><br/>
+              <a className="h5 font-weight-bold" href="https://www.mysmilecoverage.com/">Delta Dental of Michigan - Individual Shopping platform</a><br /><br />
               <small className="mb-0">role</small><br/>
-              <p className="mb-2">Senior Application Developer</p>
-            </div>
-            <div className="col-lg-12">
-
+              <p className="mb-2">Senior Application Developer</p><br/>
               <small className="mb-0">contributions</small>
               <ul className="mb-5">
                 <li>Created responsive front end for an Angular application using Bootstrap and significant custom HTML and CSS.</li>
                 <li>Created Freemarker templates for a Magnolia Content Management System</li>
-                <li>Conducted code reviews and desk checks</li>
+                <li>Created alternate theme for Renaissance company</li>
                 <li>Performed accessibility reviews and implemented technical solutions for any issues</li>
                 <li>Built a living style guide / design system for reference when project was initiated</li>
                 <li>Collaborated with design agency to ensure design systems are technically feasible</li>
               </ul>
-             
-              </div>
-            <div className="col-lg-12 d-flex flex-column">
-                <small className="mb-0">project</small>
-                <a className="h5 font-weight-bold" href="https://www.memberportal.com/">Delta Dental of Michigan - Member Portal</a>
-              <small className="mb-0 ">role</small><br/>
-              <p className="mb-2">Senior Application Developer</p>
             </div>
-            <small className="mb-0 ">contributions</small>
-            <ul>
-              <li>Extended the individual shopping design system using Angular with custom HTML and CSS</li>
-              <li>Troubleshooting JavaScript/HTML/CSS/etc</li>
-              <li>Conducted code reviews and desk checks</li>
-              <li>Conducted heuristic evaluations of product to identify user experience issues</li>
-              <li>Performed accessibility reviews and implemented technical solutions for discovered issues</li>
-            </ul>
+            <div className="col-lg-4">
+            <img className="grow sample-img" src={deltaportal} alt="artwork" />
+              <img className="grow sample-img" src={renshopping} alt="artwork" />
+            </div>
           </div>
+
+          <div className="row my-4 mx-1 p-4 sample-row d-flex flex-row">
+          <div className="col-lg-4">
+            <img className="grow sample-img" src={deltaportaltwo} alt="artwork" />
+              <img className="grow sample-img" src={renlogin} alt="artwork" />
+            </div>
+            <div className="col-lg-8">
+            <small className="mb-0">project</small><br/>
+              <a className="h5 font-weight-bold" href="https://www.memberportal.com/">Delta Dental of Michigan - Member Portal</a><br /><br />
+              <small className="mb-0">role</small><br/>
+              <p className="mb-2">Senior Application Developer</p><br />
+              <small className="mb-0 ">contributions</small>
+              <ul className="mb-5">
+                <li>Extended the individual shopping design system using Angular with custom HTML and CSS</li>
+                <li>Troubleshooting JavaScript/HTML/CSS/etc</li>
+                <li>Conducted code reviews and desk checks</li>
+                <li>Conducted heuristic evaluations of product to identify user experience issues</li>
+                <li>Performed accessibility reviews and implemented technical solutions for discovered issues</li>
+              </ul>
+            </div>
+
+          </div>
+          
           </div>
       </div>
     </div>

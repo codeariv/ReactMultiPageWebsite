@@ -191,9 +191,9 @@ a {
 .card {
   background: transparent;
 }
-.sample-card {
+.sample-img {
   width: 100%;
-  height: 100%;
+  height: auto;
   padding: 15px;
   border-radius: 5px;
 }
