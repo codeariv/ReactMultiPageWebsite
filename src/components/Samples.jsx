@@ -41,19 +41,26 @@ function Samples() {
               <h2 className="col-lg-12 p-0 page-title">Experience + Samples</h2>
             </div>
           </div>
-
-          <div className="row my-4 mx-1 p-4 sample-row d-flex flex-row">
-            <div className="col-lg-6">
+         
+          <div className="row my-5 mx-1 sample-row d-flex flex-row">
+              <div className="col-lg-12 text-card">
+                <h3 className="mb-3">
+                  Experience&nbsp;&nbsp;&nbsp;
+                </h3>
+                <p>These are roles and projects within which I have participated.</p>
+                <small><a href="https://docs.google.com/document/d/194Y7nvZMypnbAiT-F51o4PI05_dS7X7i26euKBHTyTA/edit?usp=sharing">Resume</a></small>
+              </div>
+            <div className="col-lg-6 p-4">
               <img className="grow sample-img" src={artprizesearch} alt="artwork" />
               <img className="grow sample-img" src={artprizevenue} alt="artwork" />
             </div>
-            <div className="col-lg-6">
-              <small className="mb-0">project</small><br/>
-              <a className="h5 font-weight-bold" href="https://www.artprize.org/">ArtPrize</a><br /><br />
-              <small className="mb-0">role</small><br/>
+            <div className="col-lg-6 mt-5 d-flex flex-column justify-content-center">
+              <small className="mb-0">project</small>
+              <a className="h5 font-weight-bold" href="https://www.artprize.org/">ArtPrize</a><br />
+              <small className="mb-0">role</small>
               <p className="mb-2">Senior Application Developer</p><br/>
               <small className="mb-0">contributions</small>
-              <ul className="mb-6">
+              <ul className="mb-5 pt-0 pb-4 py-0">
                 <li className="mb-4">Created responsive front end for a .NET application with Razor templates</li>
                 <li className="mb-4">Collaborated with creative team to implement the design</li>
                 <li className="mb-4">Interpreted wireframes to illustrate workflow</li>
@@ -65,39 +72,36 @@ function Samples() {
                 <li className="mb-4">Maintained a design system including all controls and typography</li>
               </ul>
             </div>
-          </div>
-
-          <div className="row my-4 mx-1 p-4 sample-row d-flex flex-row">
-            <div className="col-lg-6">
-              <small className="mb-0">project</small><br/>
-              <a className="h5 font-weight-bold" href="https://www.mysmilecoverage.com/">Delta Dental of Michigan - Individual Shopping platform</a><br /><br />
-              <small className="mb-0">role</small><br/>
+            <div className="col-lg-6 mt-5 d-flex flex-column justify-content-center">
+              <small className="mb-0">project</small>
+              <a className="h5 font-weight-bold" href="https://www.mysmilecoverage.com/">Delta Dental of Michigan - Individual Shopping platform</a><br />
+              <small className="mb-0">role</small>
               <p className="mb-2">Senior Application Developer</p><br/>
               <small className="mb-0">contributions</small>
               <ul className="mb-6">
                 <li className="mb-4">Created responsive front end for an Angular application using Bootstrap and significant custom HTML and CSS.</li>
                 <li className="mb-4">Created Freemarker templates for a Magnolia CMS</li>
                 <li className="mb-4">Created alternate theme for Renaissance company</li>
+                <li className="mb-4">Managed UX/UI team at onset of Roosevelt Solutions SaaS project</li>
+                <li className="mb-4">Ran the UX/UI council at Delta Dental</li>
                 <li className="mb-4">Performed accessibility reviews and implemented technical solutions for any issues</li>
                 <li className="mb-4">Built a living style guide / design system for reference when project was initiated</li>
                 <li className="mb-4">Collaborated with design agency to ensure design systems are technically feasible</li>
               </ul>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 mb-5">
               <img className="grow sample-img" src={deltaportal} alt="artwork" />
               <img className="grow sample-img" src={renshopping} alt="artwork" />
             </div>
-          </div>
 
-          <div className="row my-4 mx-1 p-4 sample-row d-flex flex-row">
-          <div className="col-lg-6">
-            <img className="grow sample-img" src={deltaportaltwo} alt="artwork" />
+            <div className="col-lg-6 mt-5">
+              <img className="grow sample-img" src={deltaportaltwo} alt="artwork" />
               <img className="grow sample-img" src={renlogin} alt="artwork" />
             </div>
-          <div className="col-lg-6">
-            <small className="mb-0">project</small><br/>
-              <a className="h5 font-weight-bold" href="https://www.memberportal.com/">Delta Dental of Michigan - Member Portal</a><br /><br />
-              <small className="mb-0">role</small><br/>
+          <div className="col-lg-6 mt-5 d-flex flex-column justify-content-center">
+            <small className="mb-0">project</small>
+              <a className="h5 font-weight-bold" href="https://www.memberportal.com/">Delta Dental of Michigan - Member Portal</a><br />
+              <small className="mb-0">role</small>
               <p className="mb-2">Senior Application Developer</p><br />
               <small className="mb-0 ">contributions</small>
               <ul className="mb-5">
@@ -105,13 +109,14 @@ function Samples() {
                 <li className="mb-5">Troubleshooting JavaScript/HTML/CSS/etc</li>
                 <li className="mb-5">Conducted code reviews and desk checks</li>
                 <li className="mb-5">Conducted heuristic evaluations of product to identify user experience issues</li>
+                <li className="mb-4">Created the digital accessibility discipline for Delta Dental</li>
                 <li className="mb-5">Performed accessibility reviews and implemented technical solutions for discovered issues</li>
               </ul>
            </div>
 
           </div>
           
-          <div className="row my-4 mx-1 pb-5 sample-row d-flex">
+          <div className="row my-5 mx-1 pb-5 sample-row d-flex">
             <div className="col-lg-12 text-card">
                 <h3 className="mb-3">
                   Various Digital Art&nbsp;&nbsp;&nbsp;
@@ -149,7 +154,7 @@ function Samples() {
           </div>
 
 
-          <div className="row my-4 mx-1 pb-5 sample-row d-flex">
+          <div className="row my-5 mx-1 pb-5 sample-row d-flex">
             <div className="col-lg-12 text-card">
               <h3 className="mb-3">
                 <a href="https://dribbble.com/davemelk100" target="_blank" rel="noopener noreferrer">Mobile App game concept</a>
@@ -168,7 +173,7 @@ function Samples() {
             </div> */}
           </div>
 
-          <div className="row my-4 mx-1 pb-5 sample-row d-flex">
+          <div className="row my-5 mx-1 pb-5 sample-row d-flex">
             <div className="col-lg-12 text-card">
               <h3 className="mb-3">
                 <a href="https://dribbble.com/davemelk100" target="_blank" rel="noopener noreferrer">Mobile App ticketing system</a>
@@ -188,7 +193,7 @@ function Samples() {
             </div> */}
           </div>
 
-          <div className="row my-4 mx-1 pb-5 sample-row d-flex">
+          <div className="row my-5 mx-1 pb-5 sample-row d-flex">
             <div className="col-lg-12 text-card">
               <h3 className="mb-3">
                 <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer">Various Wirefames/Sketches</a>
@@ -216,7 +221,7 @@ function Samples() {
           </div>
 
 
-          <div className="row my-4 mx-1 p-4 sample-row d-flex">
+          <div className="row my-5 mx-1 p-4 sample-row d-flex">
             <div className="col-lg-12">
               <small className="mb-0">sample links</small><br/>
                 <ul className="list-unstyled">
