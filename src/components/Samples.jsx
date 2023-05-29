@@ -32,6 +32,9 @@ import onufour from './onufour.png';
 import onufive from './onufive.png';
 import onusix from './onusix.png';
 import onupdf from './onu-one-uxui-plan.pdf';
+import onuog from './onuog.png';
+import onuogtwo from './onuogtwo.png';
+import onuogthree from './onuogthree.png';
 
 
 function Samples() {
@@ -48,14 +51,18 @@ function Samples() {
                 <h2 className="col-lg-12 p-0 page-title">Samples</h2>
               </div>
             </div>
-
             <div className="row my-5 mx-1 sample-row d-flex flex-row">
+              <div>
+                
+              </div>
               <div className="col-lg-12 text-card">
                 <h3 className="mb-3">
                   Projects&nbsp;&nbsp;&nbsp;
                 </h3>
                 <p>These are roles and projects within which I have participated.</p>
-                <small><a href="https://docs.google.com/document/d/194Y7nvZMypnbAiT-F51o4PI05_dS7X7i26euKBHTyTA/edit?usp=sharing">Resume</a></small>
+                <small>
+                  <a href="https://docs.google.com/document/d/194Y7nvZMypnbAiT-F51o4PI05_dS7X7i26euKBHTyTA/edit?usp=sharing">Resume</a>
+                </small>
               </div>
               <div className="col-lg-6 p-4">
                 <img className="grow sample-img" src={artprizesearch} alt="artwork" />
@@ -100,7 +107,6 @@ function Samples() {
                 <img className="grow sample-img" src={deltaportal} alt="artwork" />
                 <img className="grow sample-img" src={renshopping} alt="artwork" />
               </div>
-
               <div className="col-lg-6 mt-5">
                 <img className="grow sample-img" src={deltaportaltwo} alt="artwork" />
                 <img className="grow sample-img" src={renlogin} alt="artwork" />
@@ -120,12 +126,7 @@ function Samples() {
                   <li className="mb-5">Performed accessibility reviews and implemented technical solutions for discovered issues</li>
                 </ul>
               </div>
-
             </div>
-
-            
-
-
             <div className="row my-5 mx-1 pb-5 sample-row d-flex">
               <div className="col-lg-12 text-card">
                 <h3 className="mb-3">
@@ -144,7 +145,6 @@ function Samples() {
               <a href="https://dribbble.com/shots/20590741-mobile-game-concept-screens" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={comptwo} alt="artwork" /></a>
             </div> */}
             </div>
-
             <div className="row my-5 mx-1 pb-5 sample-row d-flex">
               <div className="col-lg-12 text-card">
                 <h3 className="mb-3">
@@ -160,39 +160,41 @@ function Samples() {
               <div className="col-lg-7 comp-cols">
                 <a href="https://dribbble.com/shots/20590951-mobile-app-ticketing-system-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={compsix} alt="artwork" /></a>
               </div>
-              {/* <div className="col-lg-4 comp-cols">
-              <a href="https://dribbble.com/shots/20622858-mobile-app-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={compeight} alt="artwork" /></a>
-            </div> */}
             </div>
-
-
-
             <div className="row my-5 mx-1 pb-5 sample-row d-flex">
               <div className="col-lg-12 text-card">
                 <h3 className="mb-3">
                   <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer">Onu One 3D Software</a>
                 </h3>
-                <p>These are partially fleshed out wireframes with color and placeholder text.</p>
+                <p>These are annoted wireframes with color and placeholder text.</p>
               </div>
-              <div className="col-lg-12 comp-cols">
+              <div className="col-lg-6 comp-cols">
                 <img className="grow sample-img" src={onuone} alt="artwork" />
               </div>
-              <div className="col-lg-12 comp-cols">
+              <div className="col-lg-6 comp-cols">
                 <img className="grow sample-img" src={onutwo} alt="artwork" />
               </div>
-              <div className="col-lg-12 comp-cols">
+              <div className="col-lg-6 comp-cols">
                 <img className="grow sample-img" src={onuthree} alt="artwork" />
               </div>
-              <div className="col-lg-12 comp-cols">
+              <div className="col-lg-6 comp-cols">
                 <img className="grow sample-img" src={onufour} alt="artwork" />
               </div>
-              <div className="col-lg-12 comp-cols">
+              <div className="col-lg-6 comp-cols">
                 <img className="grow sample-img" src={onufive} alt="artwork" />
               </div>
-              <div className="col-lg-12 comp-cols">
+              <div className="col-lg-6 comp-cols">
                 <img className="grow sample-img" src={onusix} alt="artwork" />
               </div>
-            </div>
+              <div className="col-lg-6 comp-cols">
+                <img className="grow sample-img" src={onuog} alt="artwork" />
+              </div>
+              <div className="col-lg-6 comp-cols">
+                <img className="grow sample-img" src={onuogtwo} alt="artwork" />
+              </div>
+              <div className="col-lg-6 comp-cols">
+                <img className="grow sample-img" src={onuogthree} alt="artwork" />
+              </div>
 
 
 
@@ -222,7 +224,6 @@ function Samples() {
                 <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={wiresix} alt="artwork" /></a>
               </div>
             </div>
-
             <div className="row my-5 mx-1 pb-5 sample-row d-flex">
               <div className="col-lg-12 text-card">
                 <h3 className="mb-3">
@@ -259,7 +260,6 @@ function Samples() {
                 <a href="https://dribbble.com/shots/21584003-Seems-Authentic-I-mean-right" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={artgenuine} alt="artwork" /></a>
               </div>
             </div>
-
             <div className="row my-5 mx-1 p-4 sample-row d-flex">
               <div className="col-lg-12">
                 <small className="mb-0">sample links</small><br />
@@ -273,13 +273,11 @@ function Samples() {
                 </ul>
               </div>
             </div>
-
-
-
           </div>
         </div>
       </div>
+      </div>
     </div>
-  );
+    );
 }
 export default Samples;
