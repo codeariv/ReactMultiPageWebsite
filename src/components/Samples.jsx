@@ -52,9 +52,6 @@ function Samples() {
               </div>
             </div>
             <div className="row my-5 mx-1 sample-row d-flex flex-row">
-              <div>
-                
-              </div>
               <div className="col-lg-12 text-card">
                 <h3 className="mb-3">
                   Projects&nbsp;&nbsp;&nbsp;
@@ -127,6 +124,7 @@ function Samples() {
                 </ul>
               </div>
             </div>
+
             <div className="row my-5 mx-1 pb-5 sample-row d-flex">
               <div className="col-lg-12 text-card">
                 <h3 className="mb-3">
@@ -145,6 +143,7 @@ function Samples() {
               <a href="https://dribbble.com/shots/20590741-mobile-game-concept-screens" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={comptwo} alt="artwork" /></a>
             </div> */}
             </div>
+
             <div className="row my-5 mx-1 pb-5 sample-row d-flex">
               <div className="col-lg-12 text-card">
                 <h3 className="mb-3">
@@ -161,6 +160,7 @@ function Samples() {
                 <a href="https://dribbble.com/shots/20590951-mobile-app-ticketing-system-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={compsix} alt="artwork" /></a>
               </div>
             </div>
+
             <div className="row my-5 mx-1 pb-5 sample-row d-flex">
               <div className="col-lg-12 text-card">
                 <h3 className="mb-3">
@@ -195,7 +195,7 @@ function Samples() {
               <div className="col-lg-6 comp-cols">
                 <img className="grow sample-img" src={onuogthree} alt="artwork" />
               </div>
-
+              </div>
 
 
             <div className="row my-5 mx-1 pb-5 sample-row d-flex">
@@ -224,6 +224,9 @@ function Samples() {
                 <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={wiresix} alt="artwork" /></a>
               </div>
             </div>
+
+
+
             <div className="row my-5 mx-1 pb-5 sample-row d-flex">
               <div className="col-lg-12 text-card">
                 <h3 className="mb-3">
@@ -260,6 +263,8 @@ function Samples() {
                 <a href="https://dribbble.com/shots/21584003-Seems-Authentic-I-mean-right" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={artgenuine} alt="artwork" /></a>
               </div>
             </div>
+
+
             <div className="row my-5 mx-1 p-4 sample-row d-flex">
               <div className="col-lg-12">
                 <small className="mb-0">sample links</small><br />
@@ -277,7 +282,6 @@ function Samples() {
         </div>
       </div>
       </div>
-    </div>
     );
 }
 export default Samples;
