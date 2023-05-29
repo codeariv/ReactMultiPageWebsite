@@ -28,6 +28,11 @@ import artprizevenue from './artprizevenue.png';
 import onuone from './onuone.png';
 import onutwo from './onutwo.png';
 import onuthree from './onuthree.png';
+import onufour from './onufour.png';
+import onufive from './onufive.png';
+import onusix from './onusix.png';
+import onupdf from './onu-one-uxui-plan.pdf';
+
 
 function Samples() {
   return (
@@ -118,42 +123,7 @@ function Samples() {
 
             </div>
 
-            <div className="row my-5 mx-1 pb-5 sample-row d-flex">
-              <div className="col-lg-12 text-card">
-                <h3 className="mb-3">
-                  Various Digital Art&nbsp;&nbsp;&nbsp;
-                </h3>
-                <p>These are various cover art concepts and digital assets.</p>
-                <small><a href="https://dribbble.com/davemelk100">Dribble Portfolio</a></small>
-              </div>
-              <div className="col-lg-4 comp-cols">
-                <a href="https://dribbble.com/shots/20590753-7-inch-record-picture-disc-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={recordtwo} alt="artwork" /></a>
-              </div>
-              <div className="col-lg-4 comp-cols">
-                <a href="https://dribbble.com/shots/21583976-Hands-disappear" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={recordone} alt="artwork" /></a>
-              </div>
-              <div className="col-lg-4 comp-cols">
-                <a href="https://dribbble.com/shots/21583983-Staggered-and-Spinning-and-Multiplying" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={artstag} alt="artwork" /></a>
-              </div>
-              <div className="col-lg-4 comp-cols">
-                <a href="https://dribbble.com/shots/20590849-screen-lock-experiment" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={artlockup} alt="artwork" /></a>
-              </div>
-              <div className="col-lg-4 comp-cols">
-                <a href="https://dribbble.com/shots/20602411-all-hands" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={artdots} alt="artwork" /></a>
-              </div>
-              <div className="col-lg-4 comp-cols">
-                <a href="https://dribbble.com/shots/21583993-Small-Movements-in-a-Giant-Machine" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={artgear} alt="artwork" /></a>
-              </div>
-              <div className="col-lg-4 comp-cols">
-                <a href="https://dribbble.com/shots/20590794-band-shirt-design" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={artlionsblack} alt="artwork" /></a>
-              </div>
-              <div className="col-lg-4 comp-cols">
-                <a href="https://dribbble.com/shots/21583998-All-Hands" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={arthands} alt="artwork" /></a>
-              </div>
-              <div className="col-lg-4 comp-cols">
-                <a href="https://dribbble.com/shots/21584003-Seems-Authentic-I-mean-right" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={artgenuine} alt="artwork" /></a>
-              </div>
-            </div>
+            
 
 
             <div className="row my-5 mx-1 pb-5 sample-row d-flex">
@@ -213,10 +183,16 @@ function Samples() {
               <div className="col-lg-12 comp-cols">
                 <img className="grow sample-img" src={onuthree} alt="artwork" />
               </div>
+              <div className="col-lg-12 comp-cols">
+                <img className="grow sample-img" src={onufour} alt="artwork" />
+              </div>
+              <div className="col-lg-12 comp-cols">
+                <img className="grow sample-img" src={onufive} alt="artwork" />
+              </div>
+              <div className="col-lg-12 comp-cols">
+                <img className="grow sample-img" src={onusix} alt="artwork" />
+              </div>
             </div>
-
-
-
 
 
 
@@ -247,6 +223,42 @@ function Samples() {
               </div>
             </div>
 
+            <div className="row my-5 mx-1 pb-5 sample-row d-flex">
+              <div className="col-lg-12 text-card">
+                <h3 className="mb-3">
+                  Various Digital Art&nbsp;&nbsp;&nbsp;
+                </h3>
+                <p>These are various cover art concepts and digital assets.</p>
+                <small><a href="https://dribbble.com/davemelk100">Dribble Portfolio</a></small>
+              </div>
+              <div className="col-lg-4 comp-cols">
+                <a href="https://dribbble.com/shots/20590753-7-inch-record-picture-disc-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={recordtwo} alt="artwork" /></a>
+              </div>
+              <div className="col-lg-4 comp-cols">
+                <a href="https://dribbble.com/shots/21583976-Hands-disappear" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={recordone} alt="artwork" /></a>
+              </div>
+              <div className="col-lg-4 comp-cols">
+                <a href="https://dribbble.com/shots/21583983-Staggered-and-Spinning-and-Multiplying" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={artstag} alt="artwork" /></a>
+              </div>
+              <div className="col-lg-4 comp-cols">
+                <a href="https://dribbble.com/shots/20590849-screen-lock-experiment" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={artlockup} alt="artwork" /></a>
+              </div>
+              <div className="col-lg-4 comp-cols">
+                <a href="https://dribbble.com/shots/20602411-all-hands" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={artdots} alt="artwork" /></a>
+              </div>
+              <div className="col-lg-4 comp-cols">
+                <a href="https://dribbble.com/shots/21583993-Small-Movements-in-a-Giant-Machine" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={artgear} alt="artwork" /></a>
+              </div>
+              <div className="col-lg-4 comp-cols">
+                <a href="https://dribbble.com/shots/20590794-band-shirt-design" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={artlionsblack} alt="artwork" /></a>
+              </div>
+              <div className="col-lg-4 comp-cols">
+                <a href="https://dribbble.com/shots/21583998-All-Hands" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={arthands} alt="artwork" /></a>
+              </div>
+              <div className="col-lg-4 comp-cols">
+                <a href="https://dribbble.com/shots/21584003-Seems-Authentic-I-mean-right" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={artgenuine} alt="artwork" /></a>
+              </div>
+            </div>
 
             <div className="row my-5 mx-1 p-4 sample-row d-flex">
               <div className="col-lg-12">
@@ -255,11 +267,13 @@ function Samples() {
                   <li className="mb-4"><a href="https://www.figma.com/proto/IaGShRQDs0RRld07kLP9G5/dewpoint-mobile-app-copy-2?node-id=201-315&scaling=min-zoom&page-id=201%3A45&starting-point-node-id=201%3A315&hide-ui=1">Mobile App Prototype - Help Desk</a></li>
                   <li className="mb-4"><a href="https://davemelkwork.com/frame">Mobile App Prototype - Rx App</a></li>
                   <li className="mb-4"><a href="https://davemelkcom.files.wordpress.com/2021/10/onu-one-uxui-plan.pdf">3D Software UX Plan</a></li>
+                  <li className="mb-4"><a href={onupdf} download="onu-one-uxui-plan" target="_blank" rel="noopener noreferrer">3D Software UX Plan pt 2</a></li>
                   <li className="mb-4"><a href="https://davemelkcom.files.wordpress.com/2021/10/uxui-solution-examples.pdf">UX/UI Solution Use Cases</a></li>
                   <li className="mb-4"><a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf">UX/UI Random Sketches</a></li>
                 </ul>
               </div>
             </div>
+
 
 
           </div>
