@@ -25,6 +25,9 @@ import recordone from './recordone.png';
 import recordtwo from './stripes.png';
 import artprizesearch from './artprizesearch.png';
 import artprizevenue from './artprizevenue.png';
+import onuone from './onuone.png';
+import onutwo from './onutwo.png';
+import onuthree from './onuthree.png';
 
 function Samples() {
   return (
@@ -191,6 +194,31 @@ function Samples() {
               <a href="https://dribbble.com/shots/20622858-mobile-app-concept" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={compeight} alt="artwork" /></a>
             </div> */}
             </div>
+
+
+
+            <div className="row my-5 mx-1 pb-5 sample-row d-flex">
+              <div className="col-lg-12 text-card">
+                <h3 className="mb-3">
+                  <a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf" target="_blank" rel="noopener noreferrer">Onu One 3D Software</a>
+                </h3>
+                <p>These are partially fleshed out wireframes with color and placeholder text.</p>
+              </div>
+              <div className="col-lg-12 comp-cols">
+                <img className="grow sample-img" src={onuone} alt="artwork" />
+              </div>
+              <div className="col-lg-12 comp-cols">
+                <img className="grow sample-img" src={onutwo} alt="artwork" />
+              </div>
+              <div className="col-lg-12 comp-cols">
+                <img className="grow sample-img" src={onuthree} alt="artwork" />
+              </div>
+            </div>
+
+
+
+
+
 
             <div className="row my-5 mx-1 pb-5 sample-row d-flex">
               <div className="col-lg-12 text-card">
