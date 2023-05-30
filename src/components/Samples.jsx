@@ -41,7 +41,7 @@ function Samples() {
   return (
 
     <div className="home">
-      <img className="img-art-two" src={artgear} alt="artwork" />
+      <img className="img-art-two position-fixed" src={artgear} alt="artwork" />
       <div className="container">
         <div className="row my-5">
         <div className="col-lg-12 mx-0 p-4 shadow-lg rounded">

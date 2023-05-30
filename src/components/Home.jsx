@@ -5,24 +5,22 @@ import recordtwo from './stripes.png';
 function Home() {
   return (
     <div className="home">
-      <img className="img-art-two" src={recordtwo} alt="artwork" />
+      <img className="img-art-two position-fixed" src={recordtwo} alt="artwork" />
       <div className="container">
         <div className="row my-5">
         <div className="col-lg-12 mx-0 p-4 shadow-lg rounded">
             <div className="row">
-              <div className="col-lg-12 mb-3">
+              <div className="col-lg-12 mb-0">
                 <Person />
-                <h2 className="col-lg-12 p-0 mb-3 page-title">Home</h2>
+                <h2 className="col-lg-12 p-0 mb-0 page-title">Home</h2>
               </div>
             </div>
-            <small>title</small><br />
-            <h2 className="h5 mb-4">Senior UI/UX Specialist</h2>
-
             <div className="row my-5 mx-1 sample-row d-flex flex-row">
               <div className="col-lg-12 text-card">
-                <h3 className="m-0 p-0">
+                <h3 className="mb-3 p-0">
                   About Me
                 </h3>
+                <p>A summary of my experience</p>
               </div>
               <div className="col-lg-12 p-4">
                 <p>I am an experienced front-end developer with experience using HTML/CSS/Javascript/Typescript including
