@@ -24,9 +24,10 @@ function Home() {
               </div>
               <div className="col-lg-12 p-4">
                 <p>I am an experienced front-end developer with experience using HTML/CSS/Javascript/Typescript including
-                  React, Angular, Bootstrap, Razor, and more.  I've created responsive design frameworks by hand, created
+                  React, Angular, Bootstrap, Razor, and more. I'm a User Experience and User Interface specialist with a CUA 
+                  from Human Factors International. I've created responsive design frameworks by hand, created
                   graphic design systems and integrated them directly with front end code. I've created wireframes, graphic
-                  comps, design systems, working prototypes and full coded POCs. I am fluent in Photoshop, Illustrator, Sketch and Figma.
+                  comps, design systems, working prototypes and fully coded POCs. I am fluent in Photoshop, Illustrator, Sketch and Figma.
                   I've been fortunate to work on many applications of all sizes. Some include the Delta
                   Dental <a href='https://www.mysmilecoverage.com/delta/'>MySmileCoverage</a> site, Delta's
                   Dental's <a href="https://www.memberportal.com/mp/delta/">Member Portal</a> Delta's SaaS
