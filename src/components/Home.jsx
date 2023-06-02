@@ -54,36 +54,7 @@ function Home() {
                 <h3>Here are the concepts, software, tooling and methodologies I've used or facilitated</h3>
     
     <p>
-    Typescript
-Javascript
-ReactJs
-Angular
-Razor
-jQuery
-UX/XD/CX/IXD/UI
-Peer Leadership
-Team Leadership
-Management
-SPAs
-Micro Frontends
-Microservices
-REST
-API
-AJAX
-Github
-VersionOne
-Subversion
-Jira
-Confluence
-.NET
-Contextual Inquiry
-Task flows
-User flows
-Empathy maps
-User research
-Usability Testing
-Heuristic Reviews
-Technical consulting
+  
     </p>
   </div>
 </div>
