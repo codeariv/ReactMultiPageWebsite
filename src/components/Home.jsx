@@ -34,7 +34,8 @@ function Home() {
                   product <a href='https://www.rooseveltsolutions.com/'>Roosevelt Solutions</a>, the <a href='https://www.healthcare.gov/'>HealthCare.gov</a> product,
                   Blue Cross Blue Shield of Michigan's <a href='https://www.bcbsm.com/'>bcbsm.com</a>,
                   and <a href='https://www.mibcn.com/'>mibcn.com</a> along with countless others.
-                </p>            <p>
+                </p>            
+                <p>
                   My career has included enterprise software delivery with companies/initiatives such as HealthCare.gov,
                   Blue Cross Blue Shield, United Healthcare, Meridian Health, Delta Dental of Michigan, Ford Motor
                   Company, General Motors and more. In addition to my current role, my previous roles include delivery
@@ -49,15 +50,7 @@ function Home() {
                 </p>
               </div>
 
-              <div className="row my-5 mx-1 d-flex flex-row">
-              <div className="col-lg-12 p-4">
-                <h3>Here are the concepts, software, tooling and methodologies I've used or facilitated</h3>
-    
-    <p>
-  
-    </p>
-  </div>
-</div>
+
 
 
 
