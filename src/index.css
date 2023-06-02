@@ -207,11 +207,12 @@ a {
 .text-card  {
   width: 100%;
   height: auto;
-  background: #1c77c3;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(28,119,195,0.8855917366946778) 66%, rgba(239,230,221,1) 100%);
   padding: 15px;
   color: white;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 .text-card a,
 .text-card h3  {
@@ -222,7 +223,6 @@ a {
   justify-content: space-between;
   border-radius: 10px;
   background: white;
-  border: 1px solid #1c77c3;
 }
 .one-screen {
   height: auto;
