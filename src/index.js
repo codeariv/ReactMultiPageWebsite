@@ -12,7 +12,6 @@ import {
   Skills,
   Contact,
   Resume,
-  Blog,
   Posts,
   Post,
 } from "./components";
