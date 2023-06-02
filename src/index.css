@@ -5,7 +5,7 @@ body {
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #efe6dd;
+  background-color: #ffffff;
   color: black;
   font-size: 1.25rem;
   position: relative;
@@ -129,7 +129,7 @@ a {
 
 .stripes {
   width: 30%;
-  opacity: 0.125;
+  opacity: 0.5;
   height: 45%;
 }
 
@@ -173,11 +173,11 @@ a {
 .img-art {
   height: 50%;
   width: auto;
-  opacity: .25;
+  opacity: .5;
 }
 
 .img-art-two {
-  opacity: .25;
+  opacity: .5;
   position: absolute;
   width: 100%;
   height: auto;
@@ -218,6 +218,9 @@ a {
 .text-card h3  {
   color: white;
   text-shadow: none;
+}
+#contents {
+  padding: 0;
 }
 .sample-row {
   justify-content: space-between;

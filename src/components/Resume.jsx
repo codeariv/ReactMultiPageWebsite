@@ -20,14 +20,18 @@ function Resume() {
               <div className="col-lg-12 text-card mb-3">
                 <h3 className="mb-3">
                   My Resume (<a href="https://docs.google.com/document/d/194Y7nvZMypnbAiT-F51o4PI05_dS7X7i26euKBHTyTA/edit?usp=sharing">LINK</a>)
-              </h3>
+                </h3>
               </div>
               <div className="col-lg-12">
                 <iframe
-        src={"https://docs.google.com/document/d/e/2PACX-1vR9d2bT85ePcdAHFbGbH5Q5QJ8gBPC_ug06fckoPNnuyVIgZ8MxVFBpRQIC30YLj5dUxF6ll_EQPAb0/pub"}
-        title="file"
-        width="100%"
-        height="600"></iframe>
+                  src={"https://docs.google.com/document/d/e/2PACX-1vR9d2bT85ePcdAHFbGbH5Q5QJ8gBPC_ug06fckoPNnuyVIgZ8MxVFBpRQIC30YLj5dUxF6ll_EQPAb0/pub"}
+                  title="file"
+                  width="100%"
+                  height="600"
+                  style={{
+    paddingTop: '0px'
+  }}
+                  />
               </div>
             </div>
 
