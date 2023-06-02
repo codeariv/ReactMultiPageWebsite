@@ -248,6 +248,10 @@ a {
 .border-right {
   border-right: 1px solid #1c77c3 !important;
 }
+.navbar-expand .navbar-nav .nav-link {
+  padding-left: 5px;
+  padding-right: 5px;
+}
 @media only screen and (min-width: 1400px) {
   .img-art-two {
     width: 100%;
