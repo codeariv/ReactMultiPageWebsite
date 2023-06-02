@@ -207,9 +207,10 @@ a {
 .text-card  {
   width: 100%;
   height: auto;
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(28,119,195,0.8855917366946778) 66%, rgba(239,230,221,1) 100%);
-  padding: 15px;
+  background: #EFE4D9;
+  background: linear-gradient(to top, #EFE4D9 0%, #1C77C3 100%);
+  
+padding: 15px;
   color: white;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
@@ -225,7 +226,7 @@ a {
 .sample-row {
   justify-content: space-between;
   border-radius: 10px;
-  background: white;
+  background: #EFE4D9;
 }
 .one-screen {
   height: auto;
