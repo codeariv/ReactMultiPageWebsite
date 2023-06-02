@@ -4,6 +4,7 @@ export { default as Home } from "./Home";
 export { default as Samples } from "./Samples";
 export { default as Skills } from "./Skills";
 export { default as Contact } from "./Contact";
+export { default as Resume } from "./Resume";
 export { default as Blog } from "./blog/Blog";
 export { default as Posts } from "./blog/Posts";
 export { default as Post } from "./blog/Post";

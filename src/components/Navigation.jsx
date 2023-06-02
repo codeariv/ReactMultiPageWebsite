@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import Link from "react-scroll/modules/components/Link";
 
 
 function Navigation() {
@@ -29,6 +30,18 @@ function Navigation() {
                   Contact
                 </NavLink>
               </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/resume">
+                  Resume
+                </NavLink>
+              </li>                      
+
+              
+                
+
+
+
+
                {/* <li className="nav-item">
                 <NavLink className="nav-link" to="/scroll">
                   Scroll
