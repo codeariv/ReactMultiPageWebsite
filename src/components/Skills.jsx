@@ -1,5 +1,5 @@
 import React from "react";
-import recordthree from './vinyl.png';
+import recordthree from './vinyldots.png';
 import Person from './Person'
 
 function Skills() {
