@@ -18,7 +18,7 @@ function Resume() {
 
             <div className="row my-5 mx-1 sample-row d-flex flex-row">
               <div className="col-lg-12 text-card mb-3">
-                <h3 className="mb-3">
+              <h3 className="mb-3 p-0">
                   My Resume (<a href="https://docs.google.com/document/d/194Y7nvZMypnbAiT-F51o4PI05_dS7X7i26euKBHTyTA/edit?usp=sharing">LINK</a>)
                 </h3>
               </div>

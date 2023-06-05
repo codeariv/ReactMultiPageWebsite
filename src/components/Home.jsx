@@ -17,10 +17,10 @@ function Home() {
             </div>
             <div className="row my-5 mx-1 sample-row d-flex flex-row">
               <div className="col-lg-12 text-card">
-                <h3 className="mb-3 p-0">
+                <h3 className="mb-0 p-0">
                   About Me
                 </h3>
-                <p>A summary of my experience</p>
+                <p className="text-dark font-weight-normal">A summary of my experience</p>
               </div>
               <div className="col-lg-12 p-4">
                 <p>I am an experienced front-end developer with experience using HTML/CSS/Javascript/Typescript including
