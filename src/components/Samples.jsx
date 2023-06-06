@@ -35,6 +35,9 @@ import onupdf from './onu-one-uxui-plan.pdf';
 import onuog from './onuog.png';
 import onuogtwo from './onuogtwo.png';
 import onuogthree from './onuogthree.png';
+import powerbi from './powerbi.png';
+import powerbione from './powerbione.png';
+import powerbitwo from './powerbitwo.png';
 
 
 function Samples() {
@@ -197,7 +200,6 @@ function Samples() {
               </div>
               </div>
 
-
             <div className="row my-5 mx-1 pb-5 sample-row d-flex">
               <div className="col-lg-12 text-card">
                 <h3 className="mb-3">
@@ -261,6 +263,27 @@ function Samples() {
               </div>
               <div className="col-lg-4 comp-cols">
                 <a href="https://dribbble.com/shots/21584003-Seems-Authentic-I-mean-right" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={artgenuine} alt="artwork" /></a>
+              </div>
+            </div>
+
+
+
+
+            <div className="row my-5 mx-1 pb-5 sample-row d-flex">
+              <div className="col-lg-12 text-card">
+                <h3 className="mb-3">
+                Power BI Dashboard Design
+                </h3>
+                <p>This a layout template created after multiple iterations and testing with users.</p>
+              </div>
+              <div className="col-lg-4 comp-cols">
+                <a href="https://dribbble.com/shots/21664606-Power-BI-dashboard-design" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={powerbi} alt="artwork" /></a>
+              </div>
+              <div className="col-lg-4 comp-cols">
+                <a href="https://dribbble.com/shots/21664606-Power-BI-dashboard-design" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={powerbione} alt="artwork" /></a>
+              </div>
+              <div className="col-lg-4 comp-cols">
+                <a href="https://dribbble.com/shots/21664606-Power-BI-dashboard-design" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={powerbitwo} alt="artwork" /></a>
               </div>
             </div>
 
