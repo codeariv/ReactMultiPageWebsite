@@ -92,7 +92,6 @@ function Skills() {
                         <li>aXe</li>
                         <li>WAVE</li>
                         <li>Micro frontends</li>
-                        <li>Microservices</li>
                         <li>Wordpress </li>
                         <li>Umbraco</li>
                         <li>Magnolia</li>
