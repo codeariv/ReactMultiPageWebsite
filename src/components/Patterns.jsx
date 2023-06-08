@@ -26,14 +26,14 @@ function Patterns() {
             <div className="row">
               <div className="col-lg-12 mb-0">
                 <Person />
-                <h2 className="col-lg-12 p-0 mb-0 page-title">Design System</h2>
+                <h2 className="col-lg-12 p-0 mb-0 page-title">Patterns</h2>
               </div>
             </div>
             <div className="row my-5 mx-1 sample-row d-flex flex-row">
               <div className="col-lg-12 text-card mb-3">
                 <h3 className="mb-0 p-0">Patterns</h3>
                 <p className="text-dark font-weight-normal">
-                  I hand-coded this SaaS design system as designed by a design agency.
+                  I hand-coded the HTML/CSS for this SaaS design system / pattern library as designed by a design agency.
                 </p>
                 </div>
               <div className="col-lg-12">
