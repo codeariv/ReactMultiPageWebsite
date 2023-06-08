@@ -1,11 +1,11 @@
 import React from "react";
-import artlockup from './artlockup.png';
+import recordtwo from './stripes.png';
 import Person from './Person'
 
 function Contact() {
   return (
     <div className="home">
-      <img className="img-art-two position-fixed" src={artlockup} alt="vinyl artwork" />
+      <img className="img-art-two position-fixed" src={recordtwo} alt="artwork" />
       <div className="container">
         <div className="row my-5">
           <div className="col-lg-12 mx-0 p-4 shadow-lg rounded">

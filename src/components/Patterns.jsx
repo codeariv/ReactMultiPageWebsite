@@ -1,6 +1,6 @@
 import React from "react";
 import Person from './Person'
-import recordthree from './vinyldots.png';
+import recordtwo from './stripes.png';
 import dsone from './ds1.png';
 import dstwo from './ds2.png';
 import dsthree from './ds3.png';
@@ -19,7 +19,7 @@ function Patterns() {
   return (
 
     <div className="home">
-      <img className="design-system-img position-fixed" src={recordthree} alt="vinyl artwork" />
+      <img className="img-art-two position-fixed" src={recordtwo} alt="artwork" />
       <div className="container">
         <div className="row my-5">
           <div className="col-lg-12 mx-0 p-4 shadow-lg rounded">

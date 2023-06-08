@@ -1,11 +1,11 @@
 import React from "react";
-import artstag from './artstag.png';
+import recordtwo from './stripes.png';
 import Person from './Person'
 
 function Resume() {
   return (
     <div className="home">
-      <img className="img-art-two position-fixed" src={artstag} alt="vinyl artwork" />
+      <img className="img-art-two position-fixed" src={recordtwo} alt="vinyl artwork" />
       <div className="container">
         <div className="row my-5">
           <div className="col-lg-12 mx-0 p-4 shadow-lg rounded">
