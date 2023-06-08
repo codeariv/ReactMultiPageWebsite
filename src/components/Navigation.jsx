@@ -19,6 +19,11 @@ function Navigation() {
                 </NavLink>
               </li> 
               <li className="nav-item">
+                <NavLink className="nav-link" to="/patterns">
+                  Design System
+                </NavLink>
+              </li> 
+              <li className="nav-item">
                 <NavLink className="nav-link" to="/skills">
                   Skills
                 </NavLink>

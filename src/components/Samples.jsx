@@ -96,7 +96,7 @@ function Samples() {
                   <li className="mb-4">Created responsive front end for an Angular application using Bootstrap and significant custom HTML and CSS.</li>
                   <li className="mb-4">Created Freemarker templates for a Magnolia CMS</li>
                   <li className="mb-4">Created alternate theme for Renaissance company</li>
-                  <li className="mb-4">Managed UX/UI team at onset of Roosevelt Solutions SaaS project</li>
+                  <li className="mb-4">Managed UX/UI team at onset of COMPANY Solutions SaaS project</li>
                   <li className="mb-4">Ran the UX/UI council at Delta Dental</li>
                   <li className="mb-4">Performed accessibility reviews and implemented technical solutions for any issues</li>
                   <li className="mb-4">Built a living style guide / design system for reference when project was initiated</li>
@@ -286,6 +286,17 @@ function Samples() {
                 <a href="https://dribbble.com/shots/21664606-Power-BI-dashboard-design" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={powerbitwo} alt="artwork" /></a>
               </div>
             </div>
+
+
+
+
+
+
+
+
+
+
+
 
 
             <div className="row my-5 mx-1 p-4 sample-row d-flex">
