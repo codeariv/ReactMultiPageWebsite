@@ -5,7 +5,7 @@ function Navigation() {
   return (
     <div className="navigation pt-3">
       <nav className="navbar navbar-expand navbar-light bg-transparent">
-        <div className="container">
+        <div className="container justify-content-start">
             <ul className="navbar-nav">
               <li className="nav-item">
                 <NavLink className="nav-link" to="/">
@@ -29,16 +29,15 @@ function Navigation() {
                 </NavLink>
               </li>
               <li className="nav-item">
+                <NavLink className="nav-link" to="/resume">
+                  Resume
+                </NavLink>
+              </li>                  
+              <li className="nav-item">
                 <NavLink className="nav-link" to="/contact">
                   Contact
                 </NavLink>
               </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/resume">
-                  Resume
-                </NavLink>
-              </li>                      
-
               
                 
 

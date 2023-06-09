@@ -31,13 +31,16 @@ import onuthree from './onuthree.png';
 import onufour from './onufour.png';
 import onufive from './onufive.png';
 import onusix from './onusix.png';
-import onupdf from './onu-one-uxui-plan.pdf';
 import onuog from './onuog.png';
 import onuogtwo from './onuogtwo.png';
 import onuogthree from './onuogthree.png';
 import powerbi from './powerbi.png';
 import powerbione from './powerbione.png';
 import powerbitwo from './powerbitwo.png';
+import resumepdf from './david-melkonian-resume.pdf'
+import onuplan from './onu-one-uxui-plan.pdf'
+
+
 
 
 function Samples() {
@@ -56,14 +59,31 @@ function Samples() {
             </div>
             <div className="row my-5 mx-1 sample-row d-flex flex-row">
               <div className="col-lg-12 text-card">
-              <h3 className="mb-0 p-0">
+                <h3 className="mb-0 p-0">
                   Projects&nbsp;&nbsp;&nbsp;
                 </h3>
                 <p className="text-dark font-weight-normal">These are roles and projects within which I have participated.</p>
                 <p>
-                  <a className="text-dark font-weight-bold" href="https://docs.google.com/document/d/194Y7nvZMypnbAiT-F51o4PI05_dS7X7i26euKBHTyTA/edit?usp=sharing">See Resume</a>
+                  <a href={resumepdf} download>
+                    Download Resume
+                  </a>
                 </p>
               </div>
+
+
+                <div className="col-lg-12 d-flex justify-content-end text-right">
+                  <ul className="list-unstyled">
+                    <li title="heading"><small className="mb-0 p-0">sample links</small></li>
+                    <li className="mb-1"><a href="https://www.figma.com/proto/IaGShRQDs0RRld07kLP9G5/dewpoint-mobile-app-copy-2?node-id=201-315&scaling=min-zoom&page-id=201%3A45&starting-point-node-id=201%3A315&hide-ui=1">Mobile App Prototype - Help Desk</a></li>
+                    <li className="mb-1"><a href="https://davemelkwork.com/frame">Mobile App Prototype - Rx App</a></li>
+                    <li className="mb-1"><a href="https://davemelkcom.files.wordpress.com/2021/10/onu-one-uxui-plan.pdf">3D Software UX Plan</a></li>
+                    <li className="mb-1"><a href={onuplan} download>3D Software UX Plan pt 2</a></li>
+                    <li className="mb-1"><a href="https://davemelkcom.files.wordpress.com/2021/10/uxui-solution-examples.pdf">UX/UI Solution Use Cases</a></li>
+                    <li className="mb-1"><a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf">UX/UI Random Sketches</a></li>
+                  </ul>
+                </div>
+
+
               <div className="col-lg-6 p-4">
                 <img className="grow sample-img" src={artprizesearch} alt="artwork" />
                 <img className="grow sample-img" src={artprizevenue} alt="artwork" />
@@ -133,7 +153,7 @@ function Samples() {
                 <h3 className="mb-3">
                   <a href="https://dribbble.com/davemelk100" target="_blank" rel="noopener noreferrer">Mobile App game concept</a>
                 </h3>
-                <p>This group listening app concept began organically as a game we would play on road trips.</p>
+                <p>This group listening app concept began organically as a game played on road trips.</p>
                 <p>Project is fully conceptualized and is in progress.</p>
               </div>
               <div className="col-lg-6 comp-cols">
@@ -284,32 +304,6 @@ function Samples() {
               </div>
               <div className="col-lg-4 comp-cols">
                 <a href="https://dribbble.com/shots/21664606-Power-BI-dashboard-design" target="_blank" rel="noopener noreferrer"><img className="grow sample-img" src={powerbitwo} alt="artwork" /></a>
-              </div>
-            </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <div className="row my-5 mx-1 p-4 sample-row d-flex">
-              <div className="col-lg-12">
-                <small className="mb-0">sample links</small><br />
-                <ul className="list-unstyled">
-                  <li className="mb-4"><a href="https://www.figma.com/proto/IaGShRQDs0RRld07kLP9G5/dewpoint-mobile-app-copy-2?node-id=201-315&scaling=min-zoom&page-id=201%3A45&starting-point-node-id=201%3A315&hide-ui=1">Mobile App Prototype - Help Desk</a></li>
-                  <li className="mb-4"><a href="https://davemelkwork.com/frame">Mobile App Prototype - Rx App</a></li>
-                  <li className="mb-4"><a href="https://davemelkcom.files.wordpress.com/2021/10/onu-one-uxui-plan.pdf">3D Software UX Plan</a></li>
-                  <li className="mb-4"><a href={onupdf} download="onu-one-uxui-plan" target="_blank" rel="noopener noreferrer">3D Software UX Plan pt 2</a></li>
-                  <li className="mb-4"><a href="https://davemelkcom.files.wordpress.com/2021/10/uxui-solution-examples.pdf">UX/UI Solution Use Cases</a></li>
-                  <li className="mb-4"><a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf">UX/UI Random Sketches</a></li>
-                </ul>
               </div>
             </div>
           </div>

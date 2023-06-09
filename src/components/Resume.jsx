@@ -1,6 +1,7 @@
 import React from "react";
 import recordtwo from './stripes.png';
 import Person from './Person'
+import resumepdf from './david-melkonian-resume.pdf'
 
 function Resume() {
   return (
@@ -19,7 +20,7 @@ function Resume() {
             <div className="row my-5 mx-1 sample-row d-flex flex-row">
               <div className="col-lg-12 text-card mb-0">
               <h3 className="mb-3 p-0">
-                  My Resume
+                  My Resume (<a href={resumepdf} download>Download</a>)
                 </h3>
               </div>
               <div className="col-lg-12">

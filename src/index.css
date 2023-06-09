@@ -5,6 +5,7 @@ body {
 
 body {
   font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   background-color: #ffffff;
   color: black;
   font-size: 1.25rem;
@@ -258,9 +259,12 @@ padding: 15px;
   background: white;
 }
 
-.text-card a,
 .text-card h3  {
   color: white;
+  text-shadow: none;
+}
+.text-card a {
+  color: #0C6AC7;
   text-shadow: none;
 }
 #contents {
@@ -589,6 +593,10 @@ ol ol,ol ul,ul ol,ul ul{
 .list-unstyled{
   padding-left:0;
   list-style:none
+}
+.list-unstyled a{
+  font-size: 16px;
+  font-weight: 400;
 }
 .list-inline{
   padding-left:0;
