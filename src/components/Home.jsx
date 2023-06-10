@@ -23,7 +23,7 @@ function Home() {
                 <p className="text-dark font-weight-normal">A summary of my experience</p>
               </div>
               <div className="col-lg-12 p-4">
-              <p>
+                <p>
                   My career has included enterprise software delivery with companies/initiatives such as HealthCare.gov,
                   Blue Cross Blue Shield, United Healthcare, Meridian Health, Delta Dental of Michigan, Ford Motor
                   Company, General Motors and more. In addition to my current role, my previous roles include delivery
@@ -53,23 +53,7 @@ function Home() {
                   to ensure successful development and design to deliver world class software.
                 </p>
               </div>
-
-
-
-
-
-
-
-
-
-
             </div>
-
-
-
-
-
-
           </div>
         </div>
       </div>

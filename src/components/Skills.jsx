@@ -31,6 +31,8 @@ function Skills() {
                         <li>Angular</li>
                         <li>Razor</li>
                         <li>jQuery</li>
+                        <li>Bootstrap</li>
+                        <li>Tailwind</li>
                         <li>UX/XD/CX/IXD/UI</li>
                         <li>Responsive and adaptive design</li>
                         <li>Wireframing</li>
