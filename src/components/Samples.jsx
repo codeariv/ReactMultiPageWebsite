@@ -39,8 +39,9 @@ import powerbione from './powerbione.png';
 import powerbitwo from './powerbitwo.png';
 import resumepdf from './david-melkonian-resume.pdf'
 import onuplan from './onu-one-uxui-plan.pdf'
-
-
+import lansingone from './lansing-promise-comp-3.png'
+import lansingtwo from './lansing-promise-comp-2.png'
+import lansingthree from './lansing-promise-comp.png'
 
 
 function Samples() {
@@ -82,6 +83,30 @@ function Samples() {
                     <li className="mb-1"><a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf">UX/UI Random Sketches</a></li>
                   </ul>
                 </div>
+
+
+
+                <div className="col-lg-6 p-4">
+                <img className="grow sample-img" src={lansingone} alt="artwork" />
+                <img className="grow sample-img" src={lansingtwo} alt="artwork" />
+                <img className="grow sample-img" src={lansingthree} alt="artwork" />
+              </div>
+              <div className="col-lg-6 mt-5 d-flex flex-column justify-content-center">
+                <small className="mb-0">project</small>
+                <p>Lansing Promise app</p><br />
+                <small className="mb-0">role</small>
+                <p className="mb-2">UX/UI Consultant</p><br />
+                <small className="mb-0">contributions</small>
+                <ul className="mb-5 pt-0 pb-4 py-0">
+                  <li className="mb-4">Worked with one of our summer interns on enhancing an application
+                  created by Dewpoint in support of a special project for the city of Lansing, MI
+                  </li>
+                  <li className="mb-4">Coded prototype page designs for UI enhancement</li>
+                  <li className="mb-4">Created desktop, mobile and tablet views, as this is a mobile-first application</li>
+                </ul>
+              </div>
+             
+
 
 
               <div className="col-lg-6 p-4">
