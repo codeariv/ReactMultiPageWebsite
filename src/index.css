@@ -53,17 +53,20 @@ h1 {
   margin: 0;
   display: flex;
   justify-content: flex-start;
+  font-family: 'Rokkitt', serif;
 }
 
 h2 {
   display: flex;
   justify-content: flex-start;
   margin: 0;
+  font-family: 'Rokkitt', serif;
 }
 
 h3 {
   margin: 0;
   display: flex;
+  font-family: 'Rokkitt', serif;
 }
 p, li {
   font-weight: 300;
