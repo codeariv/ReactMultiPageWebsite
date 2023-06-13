@@ -54,6 +54,7 @@ h1 {
   display: flex;
   justify-content: flex-start;
   font-family: 'Rokkitt', serif;
+  letter-spacing: -1px;
 }
 
 h2 {
@@ -61,12 +62,14 @@ h2 {
   justify-content: flex-start;
   margin: 0;
   font-family: 'Rokkitt', serif;
+  letter-spacing: -1px;
 }
 
 h3 {
   margin: 0;
   display: flex;
   font-family: 'Rokkitt', serif;
+  letter-spacing: -1px;
 }
 p, li {
   font-weight: 300;
