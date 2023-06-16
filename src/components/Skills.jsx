@@ -8,7 +8,7 @@ function Skills() {
     <div className="home">
       <img className="img-art-two position-fixed" src={recordtwo} alt="vinyl artwork" />
       <div className="container">
-        <div className="row my-5">
+      <div className="row my-3">
         <div className="col-lg-12 mx-0 p-4 shadow-lg rounded">
             <div className="row">
               <div className="col-lg-12 mb-0">
@@ -16,7 +16,7 @@ function Skills() {
                 <h2 className="col-lg-12 p-0 mb-0 page-title">Skills</h2>
               </div>
             </div>
-            <div className="row my-5 mx-1 sample-row d-flex flex-row">
+            <div className="row my-2 mx-1 sample-row d-flex flex-row">
               <div className="col-lg-12 text-card mb-3">
                 <h3 className="mb-0 p-0">Skills</h3>
                 <p className="text-dark font-weight-normal">There are many, see below :-)</p>
@@ -106,7 +106,7 @@ function Skills() {
                   </div>
 
 
-                    <div className="row my-5 mx-1 sample-row d-flex flex-row">
+                    <div className="row my-2 mx-1 sample-row d-flex flex-row">
                       <div className="col-lg-12 text-card mb-3">
                         <h3 className="mb-3">Front End Development</h3>
                       </div>
@@ -120,7 +120,7 @@ function Skills() {
                       </div>
                     </div>
 
-                <div className="row my-5 mx-1 sample-row d-flex flex-row">
+                <div className="row my-2 mx-1 sample-row d-flex flex-row">
                   <div className="col-lg-12 text-card mb-3">
                     <h3 className="mb-3">
                       Front End Design

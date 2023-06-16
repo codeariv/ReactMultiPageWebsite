@@ -50,7 +50,7 @@ function Samples() {
     <div className="home">
       <img className="img-art-two position-fixed" src={recordtwo} alt="artwork" />
       <div className="container">
-        <div className="row my-5">
+        <div className="row my-3">
         <div className="col-lg-12 mx-0 p-4 shadow-lg rounded">
             <div className="row">
               <div className="col-lg-12">
@@ -58,7 +58,7 @@ function Samples() {
                 <h2 className="col-lg-12 p-0 page-title">Samples</h2>
               </div>
             </div>
-            <div className="row my-5 mx-1 sample-row d-flex flex-row">
+            <div className="row my-2 mx-1 sample-row d-flex flex-row">
               <div className="col-lg-12 text-card">
                 <h3 className="mb-0 p-0">
                   Projects&nbsp;&nbsp;&nbsp;
@@ -83,7 +83,6 @@ function Samples() {
                     <li className="mb-1"><a href="https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf">UX/UI Random Sketches</a></li>
                   </ul>
                 </div>
-
 
 
                 <div className="col-lg-6 p-4">

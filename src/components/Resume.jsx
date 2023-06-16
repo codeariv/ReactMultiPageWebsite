@@ -8,7 +8,7 @@ function Resume() {
     <div className="home">
       <img className="img-art-two position-fixed" src={recordtwo} alt="vinyl artwork" />
       <div className="container">
-        <div className="row my-5">
+        <div className="row my-3">
           <div className="col-lg-12 mx-0 p-4 shadow-lg rounded">
             <div className="row">
               <div className="col-lg-12 mb-0">
@@ -17,7 +17,7 @@ function Resume() {
               </div>
             </div>
 
-            <div className="row my-5 mx-1 sample-row d-flex flex-row">
+            <div className="row my-2 mx-1 sample-row d-flex flex-row">
               <div className="col-lg-12 text-card mb-0">
               <h3 className="mb-3 p-0">
                   My Resume (<a href={resumepdf} download>Download</a>)
