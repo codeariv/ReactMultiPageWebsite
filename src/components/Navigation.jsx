@@ -1,15 +1,22 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import Person from './Person'
 
 function Navigation() {
   return (
+    
+    
+    
+    
+    
+    
     <div className="navigation">
 <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
   <button class="navbar-toggler mb-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav">
+  <ul class="navbar-nav mr-auto">
               <li className="nav-item">
                 <NavLink className="nav-link" to="/">
                   Home
@@ -60,6 +67,7 @@ function Navigation() {
             </ul>
         </div>
       </nav>
+      
     </div>
   );
 }

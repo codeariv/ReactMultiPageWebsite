@@ -1,6 +1,5 @@
 import React from "react";
 import recordtwo from './stripes.png';
-import Person from './Person'
 import resumepdf from './david-melkonian-resume.pdf'
 
 function Resume() {
@@ -12,7 +11,6 @@ function Resume() {
           <div className="col-lg-12 mx-0 p-4 shadow-lg rounded">
             <div className="row">
               <div className="col-lg-12 mb-0">
-                <Person />
                 <h2 className="col-lg-12 p-0 mb-0 page-title">Resume</h2>
               </div>
             </div>
