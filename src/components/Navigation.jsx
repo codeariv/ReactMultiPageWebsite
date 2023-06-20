@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Person from './Person'
+//import Person from './Person'
 
 function Navigation() {
   return (
