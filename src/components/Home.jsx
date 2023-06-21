@@ -30,16 +30,7 @@ function Home() {
                   manager, technical lead, accessibility lead, user experience and user interface
                   designer/developer/consultant and technical writer.
                 </p>
-                <p>I am an experienced front-end developer with experience using HTML/CSS/Javascript/Typescript including
-                  React, Angular, Bootstrap, Razor, and more. Creating pixel-perfect HTML and CSS from any design and
-                  creating responsive design frameworks by hand are a few of my strengths.</p>
-                 <p>
-                  I'm a User Experience and User Interface specialist with a CUA 
-                  from Human Factors International. I created
-                  graphic design systems and integrated them directly with front end code. I've created wireframes, graphic
-                  comps, design systems, working prototypes and fully coded POCs. I am fluent in Photoshop, Illustrator, Sketch and Figma.
-                  </p>
-                  <p>I've been fortunate to work on many applications of all sizes. Some include the Delta
+                <p>I've been fortunate to work on many applications of all sizes. Some include the Delta
                   Dental <a href='https://www.mysmilecoverage.com/delta/'>MySmileCoverage</a> site, Delta's
                   Dental's <a href="https://www.memberportal.com/mp/delta/">Member Portal</a> Delta's SaaS
                   product <a href='https://www.rooseveltsolutions.com/'>Roosevelt Solutions</a>, the <a href='https://www.healthcare.gov/'>HealthCare.gov</a> product,
@@ -52,6 +43,15 @@ function Home() {
                   certification. I work with product owners, executive leadership, vendors and management
                   to ensure successful development and design to deliver world class software.
                 </p>
+                <p>I am an experienced front-end developer with experience using HTML/CSS/Javascript/Typescript including
+                  React, Angular, Bootstrap, Razor, and more. Creating pixel-perfect HTML and CSS from any design and
+                  creating responsive design frameworks by hand are a few of my strengths.</p>
+                 <p>
+                  I'm a User Experience and User Interface specialist with a CUA 
+                  from Human Factors International. I created
+                  graphic design systems and integrated them directly with front end code. I've created wireframes, graphic
+                  comps, design systems, working prototypes and fully coded POCs. I am fluent in Photoshop, Illustrator, Sketch and Figma.
+                  </p>
               </div>
             </div>
           </div>
