@@ -256,7 +256,7 @@ a {
   width: 100%;
   height: auto;
   background: #EFE4D9;
-  background: linear-gradient(to top, #EFE4D9 0%, #1C77C3 100%);
+  /* background: linear-gradient(to top, #EFE4D9 0%, #1C77C3 100%); */
   
 padding: 15px;
   color: white;
@@ -269,7 +269,7 @@ padding: 15px;
 }
 
 .text-card h3  {
-  color: white;
+  color: black;
   text-shadow: none;
 }
 .text-card a {
@@ -1515,7 +1515,7 @@ header {
 
 .header-block.header-bg {
   width: 100%;
-  background-image: linear-gradient(-135deg, #124980 0%, #26364D 100%);
+  /* background-image: linear-gradient(-135deg, #124980 0%, #26364D 100%); */
   padding: 0;
 }
 
@@ -3462,7 +3462,7 @@ app-tooltip {
 }
 
 .gradient-sample {
-  background-image: linear-gradient(-135deg, #124980 0%, #26364D 100%);
+  /* background-image: linear-gradient(-135deg, #124980 0%, #26364D 100%); */
   height: 140px;
 }
 
