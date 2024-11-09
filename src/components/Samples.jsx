@@ -37,7 +37,7 @@ import onuogthree from './onuogthree.png';
 import powerbi from './powerbi.png';
 import powerbione from './powerbione.png';
 import powerbitwo from './powerbitwo.png';
-import resumepdf from './david-melkonian-resume.pdf'
+import resumepdf from './david-melkonian.pdf'
 import onuplan from './onu-one-uxui-plan.pdf'
 import lansingone from './lansing-promise-comp-3.png'
 import lansingtwo from './lansing-promise-comp-2.png'
