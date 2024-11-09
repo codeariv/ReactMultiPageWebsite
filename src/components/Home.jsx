@@ -57,14 +57,14 @@ function Home() {
                 </section>
 
                 <section id="skills-expertise">
-                  <h2>Skills and Expertise</h2>
+                  <h4>Skills and Expertise</h4>
                   <p>With a strong foundation in Agile methodologies such as Scrum and SAFe, I am a Certified Usability Analyst (CUA) through Human Factors International and hold a Scrum Master certification. My work involves close collaboration with product owners, executive leadership, vendors, and management to ensure the delivery of world-class software.</p>
 
                   <p>As an experienced front-end developer, I am proficient in HTML, CSS, JavaScript, TypeScript, and frameworks like React, Angular, and Bootstrap. I excel at creating pixel-perfect, responsive design frameworks from scratch and converting design files to production-ready code.</p>
                 </section>
 
                 <section id="ux-ui-design">
-                  <h2>User Experience & Interface Design</h2>
+                  <h4>User Experience & Interface Design</h4>
                   <p>I am a UX/UI specialist with a CUA credential, skilled in developing and integrating graphic design systems directly with front-end code. I have created wireframes, graphic compositions, design systems, working prototypes, and fully coded proof-of-concept projects. My design toolkit includes Figma, Photoshop, Illustrator, and Sketch, and I have a deep understanding of creating cohesive, visually compelling user experiences.</p>
                 </section>
 
