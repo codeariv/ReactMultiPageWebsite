@@ -1,25 +1,36 @@
 import React from "react";
+import recordtwo from './stripes.png';
+import Person from './Person'
 
 function Contact() {
   return (
-    <div className="contact">
-      <div class="container">
-        <div class="row align-items-center my-5">
-          <div class="col-lg-7">
-            <img
-              class="img-fluid rounded mb-4 mb-lg-0"
-              src="http://placehold.it/900x400"
-              alt=""
-            />
-          </div>
-          <div class="col-lg-5">
-            <h1 class="font-weight-light">Contact</h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
+    <div className="home">
+      <img className="img-art-two position-fixed" src={recordtwo} alt="artwork" />
+      <div className="container">
+      <div className="row my-3">
+          <div className="col-lg-12 mx-0 p-4 shadow-lg rounded">
+            <div className="row">
+              <div className="col-lg-12 mb-0">
+                <Person />
+                <h2 className="col-lg-12 p-0 mb-0 page-title">Contact</h2>
+              </div>
+            </div>
+            <div className="row my-2 mx-1 sample-row d-flex flex-row">
+              <div className="col-lg-12 text-card mb-3">
+                <h3 className="mb-3">Contact me or check out my stuff at these places.</h3>
+              </div>
+              <div className="col-lg-12">
+                <div className="col-lg-3 p-0">
+                  <ul className="list-unstyled">
+                    <li><a href="mailto:davemelk@gmail.com">Email</a></li>
+                    <li><a href="https://www.linkedin.com/in/davemelk/">LinkedIn</a></li>
+                    <li><a href="https://dribbble.com/davemelk100">Dribble</a></li>
+                    <li><a href="https://davemelk.com">Portfolio</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

@@ -1,8 +1,11 @@
 export { default as Navigation } from "./Navigation";
 export { default as Footer } from "./Footer";
 export { default as Home } from "./Home";
-export { default as About } from "./About";
+export { default as Samples } from "./Samples";
+export { default as Patterns } from "./Patterns";
+export { default as Skills } from "./Skills";
 export { default as Contact } from "./Contact";
+export { default as Resumes } from "./Resumes";
 export { default as Blog } from "./blog/Blog";
 export { default as Posts } from "./blog/Posts";
 export { default as Post } from "./blog/Post";
