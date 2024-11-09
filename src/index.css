@@ -257,9 +257,8 @@ a {
   height: auto;
   background: #EFE4D9;
   /* background: linear-gradient(to top, #EFE4D9 0%, #1C77C3 100%); */
-  
-padding: 15px;
-  color: white;
+  padding: 15px;
+  /* color: white; */
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }

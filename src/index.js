@@ -12,9 +12,9 @@ import {
   Patterns,
   Skills,
   Contact,
-  Resume,
   Posts,
   Post,
+  Resumes,
 } from "./components";
 
 ReactDOM.render(
@@ -27,7 +27,7 @@ ReactDOM.render(
       <Route path="/skills" element={<Skills />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/contact" element={<Contact />} />
-      <Route path="/resume" element={<Resume />}>
+      <Route path="/resumes" element={<Resumes />}>
         <Route path="" element={<Posts />} />
         <Route path=":postSlug" element={<Post />} />
       </Route>

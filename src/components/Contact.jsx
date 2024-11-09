@@ -23,7 +23,6 @@ function Contact() {
                 <div className="col-lg-3 p-0">
                   <ul className="list-unstyled">
                     <li><a href="mailto:davemelk@gmail.com">Email</a></li>
-                    <li><a href="https://docs.google.com/document/d/1LMjz8iHKIL1Zfu2CixSMdlcUSVFAmXt3dYpaAJEGMs8/edit">Resume</a></li>
                     <li><a href="https://www.linkedin.com/in/davemelk/">LinkedIn</a></li>
                     <li><a href="https://dribbble.com/davemelk100">Dribble</a></li>
                     <li><a href="https://davemelk.com">Portfolio</a></li>

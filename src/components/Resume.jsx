@@ -22,7 +22,7 @@ function Resume() {
                 </h3>
               </div>
               <div className="col-lg-12">
-                <iframe
+                {/* <iframe
                   src={"https://docs.google.com/document/d/e/2PACX-1vR9d2bT85ePcdAHFbGbH5Q5QJ8gBPC_ug06fckoPNnuyVIgZ8MxVFBpRQIC30YLj5dUxF6ll_EQPAb0/pub"}
                   title="file"
                   width="100%"
@@ -30,7 +30,7 @@ function Resume() {
                   style={{
     paddingTop: '0px'
   }}
-                  />
+                  /> */}
               </div>
             </div>
 
