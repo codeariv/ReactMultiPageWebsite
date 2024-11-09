@@ -20,56 +20,10 @@ function Samples() {
             <div className="row my-2 mx-1 sample-row d-flex flex-row">
               <div className="col-lg-12 text-card">
                 <a className="my-3 d-flex" href={resumepdf} download>Download Resume</a>
-                <section id="professional-summary">
-                  <h2>Professional Summary</h2>
-                  <p>With a diverse background in enterprise software delivery, my experience spans projects for high-profile clients such as HealthCare.gov, Blue Cross Blue Shield, United Healthcare, Meridian Health, Delta Dental of Michigan, Ford Motor Company, and General Motors. My roles have included delivery manager, technical lead, accessibility lead, user experience (UX) and user interface (UI) designer/developer, consultant, and technical writer.</p>
-                  <p>I've contributed to numerous applications, including Delta Dental's MySmileCoverage site, the Member Portal, and the SaaS product Roosevelt Solutions. I've also been involved with Blue Cross Blue Shield of Michigan's platforms like bcbsm.com and mibcn.com, as well as many other projects of various scales.</p>
-                </section>
+
+
   
-    <section id="skills-expertise">
-      <h2>Skills and Expertise</h2>
-      <p>With a strong foundation in Agile methodologies such as Scrum and SAFe, I am a Certified Usability Analyst (CUA) through Human Factors International and hold a Scrum Master certification. My work involves close collaboration with product owners, executive leadership, vendors, and management to ensure the delivery of world-class software.</p>
-      <p>As an experienced front-end developer, I am proficient in HTML, CSS, JavaScript, TypeScript, and frameworks like React, Angular, and Bootstrap. I excel at creating pixel-perfect, responsive design frameworks from scratch and converting design files to production-ready code.</p>
-    </section>
-  
-    <section id="ux-ui-design">
-      <h2>User Experience and Interface Design</h2>
-      <p>I am a UX/UI specialist with a CUA credential, skilled in developing and integrating graphic design systems directly with front-end code. I have created wireframes, graphic compositions, design systems, working prototypes, and fully coded proof-of-concept projects. My design toolkit includes Figma, Photoshop, Illustrator, and Sketch, and I have a deep understanding of creating cohesive, visually compelling user experiences.</p>
-    </section>
-  
-    <section id="career-experience">
-      <h2>Career Experience</h2>
-      <article>
-        <h3>UI/UX Design and Accessibility</h3>
-        <p>Led DDMI's UX/UI council, managed UX/UI teams, created accessibility standards and testing practices to meet
-          ADA compliance, and maintained alignment with branding guidelines.</p>
-      </article>
-
-      <article>
-        <h3>Stakeholder Engagement and UX Strategy</h3>
-        <p>Conducted focus groups and discovery sessions to gather insights from stakeholders, created proposals,
-          wireframes, and visual style guides, and provided technical consulting to support new software products.</p>
-      </article>
-
-      <article>
-        <h3>Technical Consulting and Implementation</h3>
-        <p>Provided technical feasibility and integration expertise for third-party software, worked with sales to draft
-          statements of work, and developed POCs for event registration applications using various tech stacks (.NET,
-          Angular, Node, Azure).</p>
-      </article>
-
-      <article>
-        <h3>Application Development</h3>
-        <p>Developed front ends for event registration and shopping applications using various frameworks (React, Node,
-          Angular, Magnolia CMS), and translated designs from Sketch files into HTML/CSS/Angular components.</p>
-      </article>
-
-      <article>
-        <h3>Agile Development and Team Leadership</h3>
-        <p>Led Agile-driven efforts across various roles—Scrum Master, developer, product owner on a SaaS project,
-          developing SDLC processes, documentation, and enterprise guidelines for UI development and accessibility.</p>
-      </article>
-    </section>
+   
 
     <section id="work-history">
       <h2>Work History</h2>
