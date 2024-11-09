@@ -23,8 +23,6 @@ import arthands from './arthands.png';
 import artgenuine from './artgenuine.png';
 import recordone from './recordone.png';
 import recordtwo from './stripes.png';
-import artprizesearch from './artprizesearch.png';
-import artprizevenue from './artprizevenue.png';
 import onuone from './onuone.png';
 import onutwo from './onutwo.png';
 import onuthree from './onuthree.png';
