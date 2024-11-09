@@ -37,12 +37,11 @@ import onuogthree from './onuogthree.png';
 import powerbi from './powerbi.png';
 import powerbione from './powerbione.png';
 import powerbitwo from './powerbitwo.png';
-import resumepdf from './david-melkonian.pdf'
 import onuplan from './onu-one-uxui-plan.pdf'
 import lansingone from './lansing-promise-comp-3.png'
 import lansingtwo from './lansing-promise-comp-2.png'
 import lansingthree from './lansing-promise-comp.png'
-
+import videoconf from './remote-int.pdf'
 
 function Samples() {
   return (
@@ -63,18 +62,14 @@ function Samples() {
                 <h3 className="mb-0 p-0">
                   Projects&nbsp;&nbsp;&nbsp;
                 </h3>
-                <p className="text-dark font-weight-normal">These are roles and projects within which I have participated.</p>
-                <p>
-                  <a href={resumepdf} download>
-                    Download Resume
-                  </a>
-                </p>
+                <p className="text-dark font-weight-normal">These are some of the roles and projects within which I have participated.</p>
               </div>
 
 
                 <div className="col-lg-12 d-flex">
                   <ul className="list-unstyled">
                     <li title="heading"><small className="mb-0 p-0">sample links</small></li>
+                    <li className="mb-1"><a href={videoconf} download>Video conference concept</a></li>
                     <li className="mb-1"><a href="https://www.figma.com/proto/IaGShRQDs0RRld07kLP9G5/dewpoint-mobile-app-copy-2?node-id=201-315&scaling=min-zoom&page-id=201%3A45&starting-point-node-id=201%3A315&hide-ui=1">Mobile App Prototype - Help Desk</a></li>
                     {/* <li className="mb-1"><a href="https://davemelkwork.com/frame">Mobile App Prototype - Rx App</a></li> */}
                     <li className="mb-1"><a href="https://davemelkcom.files.wordpress.com/2021/10/onu-one-uxui-plan.pdf">3D Software UX Plan</a></li>
@@ -107,7 +102,7 @@ function Samples() {
              
 
 
-
+{/* 
               <div className="col-lg-6 p-4">
                 <img className="grow sample-img" src={artprizesearch} alt="artwork" />
                 <img className="grow sample-img" src={artprizevenue} alt="artwork" />
@@ -129,7 +124,7 @@ function Samples() {
                   <li className="mb-4">Created style and layout for admin pages, confirmation messages, and alerts</li>
                   <li className="mb-4">Maintained a design system including all controls and typography</li>
                 </ul>
-              </div>
+              </div> */}
               <div className="col-lg-6 mt-5 d-flex flex-column justify-content-center">
                 <small className="mb-0">project</small>
                 <a className="h5 font-weight-bold" href="https://www.mysmilecoverage.com/">Delta Dental of Michigan - Individual Shopping platform</a><br />
