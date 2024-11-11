@@ -52,7 +52,7 @@ body {
   font-family: 'Rokkitt', serif;
 }
 h1 {
-  margin: 0;
+  margin: 0 0 15px;
   display: flex;
   justify-content: flex-start;
   font-family: 'Rokkitt', serif;
@@ -62,13 +62,13 @@ h1 {
 h2 {
   display: flex;
   justify-content: flex-start;
-  margin: 0;
+  margin: 0 0 10px;
   font-family: 'Rokkitt', serif;
   letter-spacing: -1px;
 }
 
 h3 {
-  margin: 0;
+  margin: 0 0 5px;
   display: flex;
   font-family: 'Rokkitt', serif;
   letter-spacing: -1px;
@@ -234,7 +234,7 @@ a {
   opacity: .5;
 }
 .page-title {
-  /* text-shadow: #efe4d9 1px 2px; */
+  /* text-shadow: white 1px 2px; */
   color: #1c77c3;
   text-transform: uppercase;
   font-size: 50px;
@@ -255,8 +255,8 @@ a {
 .text-card  {
   width: 100%;
   height: auto;
-  background: #EFE4D9;
-  /* background: linear-gradient(to top, #EFE4D9 0%, #1C77C3 100%); */
+  background: white;
+  /* background: linear-gradient(to top, white 0%, #1C77C3 100%); */
   padding: 15px;
   /* color: white; */
   border-top-right-radius: 10px;
@@ -281,7 +281,7 @@ a {
 .sample-row {
   justify-content: space-between;
   border-radius: 10px;
-  background: #EFE4D9;
+  background: white;
 }
 .one-screen {
   height: auto;
@@ -445,7 +445,7 @@ abbr[title]{
   border-bottom:1px dotted
 }
 b,strong{
-  font-weight: bold
+  font-weight: 900;
 }
 dfn{
   font-style:italic
@@ -490,7 +490,7 @@ button,html input[type=button],input[type=reset],input[type=submit] {
 }
 
 p {
-  margin: 0 0 20px 0;
+  margin: 0 0 5px 0;
 }
 
 a {
@@ -642,6 +642,7 @@ ol ol,ol ul,ul ol,ul ul{
   padding-left:15px;
   margin-right:auto;
   margin-left:auto;
+  min-height: 100vh;
 }
 
 .container-fluid {
@@ -3529,4 +3530,23 @@ app-tooltip {
 
 .client-plan-dl-wider dt {
   min-width: 180px;
+}
+
+.work-history p strong {
+  font-family: 'Rokkitt';
+  font-size: 24px;
+}
+
+.work-history ul  {
+  margin-bottom: 40px;
+}
+
+.skills-expertise,
+.ux-ui-design,
+.professional-summary {
+  margin-bottom: 30px;
+}
+
+.shadow-lg {
+  min-height: 100vh;
 }

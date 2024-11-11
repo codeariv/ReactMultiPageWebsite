@@ -20,18 +20,13 @@ function Samples() {
             <div className="row my-2 mx-1 sample-row d-flex flex-row">
               <div className="col-lg-12 text-card">
                 <a className="my-3 d-flex" href={resumepdf} download>Download Resume</a>
-
-
-  
-   
-
-    <section id="work-history">
+    <section className="work-history">
       <h2>Work History</h2>
       <article>
         <h3>Propio Language Services</h3>
         <p><strong>Position:</strong> Principal UX/UI Developer</p>
         <p><strong>Location:</strong> Overland Park, KS</p>
-        <p><strong>Duration:</strong> July 2023 - Present</p>
+        <p><strong>Duration:</strong> July 2023 - November 2024</p>
         <ul>
           <li>Presented new feature concepts to C-Level employees</li>
           <li>Served as SME for accessibility</li>

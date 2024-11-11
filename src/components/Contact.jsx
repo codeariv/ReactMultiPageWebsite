@@ -16,8 +16,8 @@ function Contact() {
               </div>
             </div>
             <div className="row my-2 mx-1 sample-row d-flex flex-row">
-              <div className="col-lg-12 text-card mb-3">
-                <h3 className="mb-3">Contact me or check out my stuff at these places.</h3>
+              <div className="col-lg-12 text-card">
+                <h3 className="mb-1">Contact me or check out my stuff at these places.</h3>
               </div>
               <div className="col-lg-12">
                 <div className="col-lg-3 p-0">
